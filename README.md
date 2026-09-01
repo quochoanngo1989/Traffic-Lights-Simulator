@@ -20,13 +20,27 @@ Node.js and npm do not need to be installed on the host machine. They are includ
 
 ## Configure Mapbox
 
-The 3D visualizer requires a public Mapbox access token. Copy `.env.example` to `.env` and set the token before starting the containers:
+The 3D visualizer requires a public Mapbox access token. Before starting the containers, create a local `.env` file from `.env.example`.
+
+On Windows PowerShell:
+
+```powershell
+Copy-Item .env.example .env
+```
+
+On Linux or macOS:
+
+```bash
+cp .env.example .env
+```
+
+Open `.env` and set your public Mapbox token:
 
 ```text
 MAPBOX_ACCESS_TOKEN=pk.your_public_token
 ```
 
-Do not use or commit a secret Mapbox token. The `.env` file is ignored by Git.
+The resulting file has the same structure as the local configuration used by this project. Do not use or commit a secret Mapbox token. The `.env` file is ignored by Git.
 
 ## Run the containers
 
