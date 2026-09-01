@@ -1,0 +1,4347 @@
+{
+  "formatVersion": 1,
+  "sourceFile": "its_messages.json",
+  "objFile": "intersection.obj",
+  "units": "meters",
+  "coordinateSystem": "THREE_JS_LOCAL_ENU",
+  "axes": {
+    "x": "east",
+    "y": "up",
+    "z": "negative north"
+  },
+  "mapToThreeJs": {
+    "x": "east",
+    "y": "height",
+    "z": "-north"
+  },
+  "referencePointWgs84": {
+    "latitude": 52.5000634,
+    "longitude": 13.3064561,
+    "elevationMeters": null
+  },
+  "referencePointObjectName": "ReferencePoint_WGS84",
+  "referencePointLocalThreeJs": {
+    "x": 0,
+    "y": 0,
+    "z": 0
+  },
+  "laneObjectCount": 59,
+  "arrowObjectCount": 35,
+  "mappedSignalGroupCount": 42,
+  "signalGroups": [
+    {
+      "signalGroup": 1,
+      "movements": [
+        {
+          "fromLaneId": 32,
+          "fromLaneObjectName": "Lane_032_Fahrstreifen_1_im_Arm_7_INGRESS",
+          "toLaneId": 28,
+          "connectionId": 26,
+          "maneuvers": [
+            "maneuverStraightAllowed"
+          ]
+        },
+        {
+          "fromLaneId": 32,
+          "fromLaneObjectName": "Lane_032_Fahrstreifen_1_im_Arm_7_INGRESS",
+          "toLaneId": 27,
+          "connectionId": 27,
+          "maneuvers": [
+            "maneuverStraightAllowed"
+          ]
+        },
+        {
+          "fromLaneId": 33,
+          "fromLaneObjectName": "Lane_033_Fahrstreifen_2_im_Arm_7_INGRESS",
+          "toLaneId": 29,
+          "connectionId": 25,
+          "maneuvers": [
+            "maneuverStraightAllowed"
+          ]
+        }
+      ]
+    },
+    {
+      "signalGroup": 2,
+      "movements": [
+        {
+          "fromLaneId": 32,
+          "fromLaneObjectName": "Lane_032_Fahrstreifen_1_im_Arm_7_INGRESS",
+          "toLaneId": 31,
+          "connectionId": 28,
+          "maneuvers": [
+            "maneuverLeftAllowed"
+          ]
+        }
+      ]
+    },
+    {
+      "signalGroup": 3,
+      "movements": [
+        {
+          "fromLaneId": 30,
+          "fromLaneObjectName": "Lane_030_Fahrstreifen_1_im_Arm_6_INGRESS",
+          "toLaneId": 34,
+          "connectionId": 29,
+          "maneuvers": [
+            "maneuverRightAllowed"
+          ]
+        },
+        {
+          "fromLaneId": 30,
+          "fromLaneObjectName": "Lane_030_Fahrstreifen_1_im_Arm_6_INGRESS",
+          "toLaneId": 59,
+          "connectionId": 30,
+          "maneuvers": [
+            "maneuverRightAllowed"
+          ]
+        }
+      ]
+    },
+    {
+      "signalGroup": 4,
+      "movements": [
+        {
+          "fromLaneId": 30,
+          "fromLaneObjectName": "Lane_030_Fahrstreifen_1_im_Arm_6_INGRESS",
+          "toLaneId": 27,
+          "connectionId": 31,
+          "maneuvers": [
+            "maneuverLeftAllowed"
+          ]
+        },
+        {
+          "fromLaneId": 30,
+          "fromLaneObjectName": "Lane_030_Fahrstreifen_1_im_Arm_6_INGRESS",
+          "toLaneId": 28,
+          "connectionId": 32,
+          "maneuvers": [
+            "maneuverLeftAllowed"
+          ]
+        },
+        {
+          "fromLaneId": 30,
+          "fromLaneObjectName": "Lane_030_Fahrstreifen_1_im_Arm_6_INGRESS",
+          "toLaneId": 29,
+          "connectionId": 33,
+          "maneuvers": [
+            "maneuverLeftAllowed"
+          ]
+        }
+      ]
+    },
+    {
+      "signalGroup": 5,
+      "movements": [
+        {
+          "fromLaneId": 24,
+          "fromLaneObjectName": "Lane_024_Fahrstreifen_1_im_Arm_5_INGRESS",
+          "toLaneId": 34,
+          "connectionId": 34,
+          "maneuvers": [
+            "maneuverStraightAllowed"
+          ]
+        },
+        {
+          "fromLaneId": 25,
+          "fromLaneObjectName": "Lane_025_Fahrstreifen_2_im_Arm_5_INGRESS",
+          "toLaneId": 59,
+          "connectionId": 35,
+          "maneuvers": [
+            "maneuverStraightAllowed"
+          ]
+        },
+        {
+          "fromLaneId": 26,
+          "fromLaneObjectName": "Lane_026_Fahrstreifen_3_im_Arm_5_INGRESS",
+          "toLaneId": 59,
+          "connectionId": 36,
+          "maneuvers": [
+            "maneuverStraightAllowed"
+          ]
+        }
+      ]
+    },
+    {
+      "signalGroup": 6,
+      "movements": [
+        {
+          "fromLaneId": 15,
+          "fromLaneObjectName": "Lane_015_Fahrstreifen_3_im_Arm_3_INGRESS",
+          "toLaneId": 8,
+          "connectionId": 39,
+          "maneuvers": [
+            "maneuverRightAllowed"
+          ]
+        },
+        {
+          "fromLaneId": 15,
+          "fromLaneObjectName": "Lane_015_Fahrstreifen_3_im_Arm_3_INGRESS",
+          "toLaneId": 7,
+          "connectionId": 40,
+          "maneuvers": [
+            "maneuverRightAllowed"
+          ]
+        },
+        {
+          "fromLaneId": 15,
+          "fromLaneObjectName": "Lane_015_Fahrstreifen_3_im_Arm_3_INGRESS",
+          "toLaneId": 9,
+          "connectionId": 38,
+          "maneuvers": [
+            "maneuverRightAllowed"
+          ]
+        }
+      ]
+    },
+    {
+      "signalGroup": 7,
+      "movements": [
+        {
+          "fromLaneId": 13,
+          "fromLaneObjectName": "Lane_013_Fahrstreifen_1_im_Arm_3_INGRESS",
+          "toLaneId": 10,
+          "connectionId": 43,
+          "maneuvers": [
+            "maneuverStraightAllowed"
+          ]
+        },
+        {
+          "fromLaneId": 13,
+          "fromLaneObjectName": "Lane_013_Fahrstreifen_1_im_Arm_3_INGRESS",
+          "toLaneId": 12,
+          "connectionId": 57,
+          "maneuvers": [
+            "maneuverStraightAllowed"
+          ]
+        },
+        {
+          "fromLaneId": 14,
+          "fromLaneObjectName": "Lane_014_Fahrstreifen_2_im_Arm_3_INGRESS",
+          "toLaneId": 11,
+          "connectionId": 58,
+          "maneuvers": [
+            "maneuverStraightAllowed"
+          ]
+        }
+      ]
+    },
+    {
+      "signalGroup": 8,
+      "movements": [
+        {
+          "fromLaneId": 1,
+          "fromLaneObjectName": "Lane_001_Fahrstreifen_1_im_Arm_1_INGRESS",
+          "toLaneId": 16,
+          "connectionId": 47,
+          "maneuvers": [
+            "maneuverStraightAllowed"
+          ]
+        },
+        {
+          "fromLaneId": 2,
+          "fromLaneObjectName": "Lane_002_Fahrstreifen_2_im_Arm_1_INGRESS",
+          "toLaneId": 17,
+          "connectionId": 44,
+          "maneuvers": [
+            "maneuverStraightAllowed"
+          ]
+        }
+      ]
+    },
+    {
+      "signalGroup": 9,
+      "movements": [
+        {
+          "fromLaneId": 2,
+          "fromLaneObjectName": "Lane_002_Fahrstreifen_2_im_Arm_1_INGRESS",
+          "toLaneId": 23,
+          "connectionId": 66,
+          "maneuvers": [
+            "maneuverRightAllowed"
+          ]
+        },
+        {
+          "fromLaneId": 3,
+          "fromLaneObjectName": "Lane_003_Fahrstreifen_3_im_Arm_1_INGRESS",
+          "toLaneId": 22,
+          "connectionId": 45,
+          "maneuvers": [
+            "maneuverRightAllowed"
+          ]
+        },
+        {
+          "fromLaneId": 3,
+          "fromLaneObjectName": "Lane_003_Fahrstreifen_3_im_Arm_1_INGRESS",
+          "toLaneId": 21,
+          "connectionId": 46,
+          "maneuvers": [
+            "maneuverRightAllowed"
+          ]
+        },
+        {
+          "fromLaneId": 3,
+          "fromLaneObjectName": "Lane_003_Fahrstreifen_3_im_Arm_1_INGRESS",
+          "toLaneId": 23,
+          "connectionId": 62,
+          "maneuvers": [
+            "maneuverRightAllowed"
+          ]
+        }
+      ]
+    },
+    {
+      "signalGroup": 10,
+      "movements": [
+        {
+          "fromLaneId": 1,
+          "fromLaneObjectName": "Lane_001_Fahrstreifen_1_im_Arm_1_INGRESS",
+          "toLaneId": 7,
+          "connectionId": 48,
+          "maneuvers": [
+            "maneuverLeftAllowed"
+          ]
+        },
+        {
+          "fromLaneId": 1,
+          "fromLaneObjectName": "Lane_001_Fahrstreifen_1_im_Arm_1_INGRESS",
+          "toLaneId": 8,
+          "connectionId": 50,
+          "maneuvers": [
+            "maneuverLeftAllowed"
+          ]
+        },
+        {
+          "fromLaneId": 1,
+          "fromLaneObjectName": "Lane_001_Fahrstreifen_1_im_Arm_1_INGRESS",
+          "toLaneId": 9,
+          "connectionId": 49,
+          "maneuvers": [
+            "maneuverLeftAllowed"
+          ]
+        }
+      ]
+    },
+    {
+      "signalGroup": 11,
+      "movements": [
+        {
+          "fromLaneId": 18,
+          "fromLaneObjectName": "Lane_018_Fahrstreifen_1_im_Arm_4_INGRESS",
+          "toLaneId": 10,
+          "connectionId": 51,
+          "maneuvers": [
+            "maneuverLeftAllowed"
+          ]
+        },
+        {
+          "fromLaneId": 18,
+          "fromLaneObjectName": "Lane_018_Fahrstreifen_1_im_Arm_4_INGRESS",
+          "toLaneId": 12,
+          "connectionId": 52,
+          "maneuvers": [
+            "maneuverLeftAllowed"
+          ]
+        }
+      ]
+    },
+    {
+      "signalGroup": 12,
+      "movements": [
+        {
+          "fromLaneId": 19,
+          "fromLaneObjectName": "Lane_019_Fahrstreifen_2_im_Arm_4_INGRESS",
+          "toLaneId": 8,
+          "connectionId": 53,
+          "maneuvers": [
+            "maneuverStraightAllowed"
+          ]
+        },
+        {
+          "fromLaneId": 20,
+          "fromLaneObjectName": "Lane_020_Fahrstreifen_3_im_Arm_4_INGRESS",
+          "toLaneId": 9,
+          "connectionId": 54,
+          "maneuvers": [
+            "maneuverStraightAllowed"
+          ]
+        }
+      ]
+    },
+    {
+      "signalGroup": 13,
+      "movements": [
+        {
+          "fromLaneId": 20,
+          "fromLaneObjectName": "Lane_020_Fahrstreifen_3_im_Arm_4_INGRESS",
+          "toLaneId": 16,
+          "connectionId": 55,
+          "maneuvers": [
+            "maneuverRightAllowed"
+          ]
+        },
+        {
+          "fromLaneId": 20,
+          "fromLaneObjectName": "Lane_020_Fahrstreifen_3_im_Arm_4_INGRESS",
+          "toLaneId": 17,
+          "connectionId": 65,
+          "maneuvers": [
+            "maneuverRightAllowed"
+          ]
+        }
+      ]
+    },
+    {
+      "signalGroup": 14,
+      "movements": [
+        {
+          "fromLaneId": 4,
+          "fromLaneObjectName": "Lane_004_Fahrstreifen_1_im_Arm_2_INGRESS",
+          "toLaneId": 16,
+          "connectionId": 56,
+          "maneuvers": [
+            "maneuverLeftAllowed"
+          ]
+        }
+      ]
+    },
+    {
+      "signalGroup": 15,
+      "movements": [
+        {
+          "fromLaneId": 6,
+          "fromLaneObjectName": "Lane_006_Fahrstreifen_3_im_Arm_2_INGRESS",
+          "toLaneId": 12,
+          "connectionId": 59,
+          "maneuvers": [
+            "maneuverRightAllowed"
+          ]
+        },
+        {
+          "fromLaneId": 6,
+          "fromLaneObjectName": "Lane_006_Fahrstreifen_3_im_Arm_2_INGRESS",
+          "toLaneId": 11,
+          "connectionId": 64,
+          "maneuvers": [
+            "maneuverRightAllowed"
+          ]
+        },
+        {
+          "fromLaneId": 47,
+          "fromLaneObjectName": "Lane_047_Gehweg_oder_Radweg_0_im_Arm_4_UNSPECIFIED",
+          "toLaneId": 48,
+          "connectionId": 80,
+          "maneuvers": []
+        }
+      ]
+    },
+    {
+      "signalGroup": 16,
+      "movements": [
+        {
+          "fromLaneId": 5,
+          "fromLaneObjectName": "Lane_005_Fahrstreifen_2_im_Arm_2_INGRESS",
+          "toLaneId": 22,
+          "connectionId": 60,
+          "maneuvers": [
+            "maneuverStraightAllowed"
+          ]
+        },
+        {
+          "fromLaneId": 6,
+          "fromLaneObjectName": "Lane_006_Fahrstreifen_3_im_Arm_2_INGRESS",
+          "toLaneId": 23,
+          "connectionId": 61,
+          "maneuvers": [
+            "maneuverStraightAllowed"
+          ]
+        }
+      ]
+    },
+    {
+      "signalGroup": 17,
+      "movements": [
+        {
+          "fromLaneId": 26,
+          "fromLaneObjectName": "Lane_026_Fahrstreifen_3_im_Arm_5_INGRESS",
+          "toLaneId": 31,
+          "connectionId": 63,
+          "maneuvers": [
+            "maneuverRightAllowed"
+          ]
+        }
+      ]
+    },
+    {
+      "signalGroup": 18,
+      "movements": [
+        {
+          "fromLaneId": 13,
+          "fromLaneObjectName": "Lane_013_Fahrstreifen_1_im_Arm_3_INGRESS",
+          "toLaneId": 21,
+          "connectionId": 91,
+          "maneuvers": [
+            "maneuverLeftAllowed"
+          ]
+        },
+        {
+          "fromLaneId": 13,
+          "fromLaneObjectName": "Lane_013_Fahrstreifen_1_im_Arm_3_INGRESS",
+          "toLaneId": 23,
+          "connectionId": 92,
+          "maneuvers": [
+            "maneuverLeftAllowed"
+          ]
+        },
+        {
+          "fromLaneId": 13,
+          "fromLaneObjectName": "Lane_013_Fahrstreifen_1_im_Arm_3_INGRESS",
+          "toLaneId": 22,
+          "connectionId": 93,
+          "maneuvers": [
+            "maneuverLeftAllowed"
+          ]
+        }
+      ]
+    },
+    {
+      "signalGroup": 19,
+      "movements": [
+        {
+          "fromLaneId": 35,
+          "fromLaneObjectName": "Lane_035_Gehweg_oder_Radweg_0_im_Arm_1_UNSPECIFIED",
+          "toLaneId": 36,
+          "connectionId": 1,
+          "maneuvers": []
+        },
+        {
+          "fromLaneId": 36,
+          "fromLaneObjectName": "Lane_036_Gehweg_oder_Radweg_0_im_Arm_1_UNSPECIFIED",
+          "toLaneId": 35,
+          "connectionId": 2,
+          "maneuvers": []
+        }
+      ]
+    },
+    {
+      "signalGroup": 20,
+      "movements": [
+        {
+          "fromLaneId": 35,
+          "fromLaneObjectName": "Lane_035_Gehweg_oder_Radweg_0_im_Arm_1_UNSPECIFIED",
+          "toLaneId": 36,
+          "connectionId": 67,
+          "maneuvers": []
+        },
+        {
+          "fromLaneId": 36,
+          "fromLaneObjectName": "Lane_036_Gehweg_oder_Radweg_0_im_Arm_1_UNSPECIFIED",
+          "toLaneId": 35,
+          "connectionId": 68,
+          "maneuvers": []
+        }
+      ]
+    },
+    {
+      "signalGroup": 21,
+      "movements": [
+        {
+          "fromLaneId": 37,
+          "fromLaneObjectName": "Lane_037_Gehweg_oder_Radweg_0_im_Arm_1_UNSPECIFIED",
+          "toLaneId": 38,
+          "connectionId": 3,
+          "maneuvers": []
+        },
+        {
+          "fromLaneId": 38,
+          "fromLaneObjectName": "Lane_038_Gehweg_oder_Radweg_0_im_Arm_1_UNSPECIFIED",
+          "toLaneId": 37,
+          "connectionId": 4,
+          "maneuvers": []
+        }
+      ]
+    },
+    {
+      "signalGroup": 22,
+      "movements": [
+        {
+          "fromLaneId": 37,
+          "fromLaneObjectName": "Lane_037_Gehweg_oder_Radweg_0_im_Arm_1_UNSPECIFIED",
+          "toLaneId": 38,
+          "connectionId": 69,
+          "maneuvers": []
+        },
+        {
+          "fromLaneId": 38,
+          "fromLaneObjectName": "Lane_038_Gehweg_oder_Radweg_0_im_Arm_1_UNSPECIFIED",
+          "toLaneId": 37,
+          "connectionId": 70,
+          "maneuvers": []
+        }
+      ]
+    },
+    {
+      "signalGroup": 23,
+      "movements": [
+        {
+          "fromLaneId": 39,
+          "fromLaneObjectName": "Lane_039_Gehweg_oder_Radweg_0_im_Arm_2_UNSPECIFIED",
+          "toLaneId": 40,
+          "connectionId": 5,
+          "maneuvers": []
+        },
+        {
+          "fromLaneId": 40,
+          "fromLaneObjectName": "Lane_040_Gehweg_oder_Radweg_0_im_Arm_2_UNSPECIFIED",
+          "toLaneId": 39,
+          "connectionId": 6,
+          "maneuvers": []
+        }
+      ]
+    },
+    {
+      "signalGroup": 24,
+      "movements": [
+        {
+          "fromLaneId": 39,
+          "fromLaneObjectName": "Lane_039_Gehweg_oder_Radweg_0_im_Arm_2_UNSPECIFIED",
+          "toLaneId": 40,
+          "connectionId": 71,
+          "maneuvers": []
+        },
+        {
+          "fromLaneId": 40,
+          "fromLaneObjectName": "Lane_040_Gehweg_oder_Radweg_0_im_Arm_2_UNSPECIFIED",
+          "toLaneId": 39,
+          "connectionId": 72,
+          "maneuvers": []
+        }
+      ]
+    },
+    {
+      "signalGroup": 25,
+      "movements": [
+        {
+          "fromLaneId": 41,
+          "fromLaneObjectName": "Lane_041_Gehweg_oder_Radweg_0_im_Arm_2_UNSPECIFIED",
+          "toLaneId": 42,
+          "connectionId": 7,
+          "maneuvers": []
+        },
+        {
+          "fromLaneId": 42,
+          "fromLaneObjectName": "Lane_042_Gehweg_oder_Radweg_0_im_Arm_2_UNSPECIFIED",
+          "toLaneId": 41,
+          "connectionId": 8,
+          "maneuvers": []
+        }
+      ]
+    },
+    {
+      "signalGroup": 26,
+      "movements": [
+        {
+          "fromLaneId": 41,
+          "fromLaneObjectName": "Lane_041_Gehweg_oder_Radweg_0_im_Arm_2_UNSPECIFIED",
+          "toLaneId": 42,
+          "connectionId": 74,
+          "maneuvers": []
+        },
+        {
+          "fromLaneId": 42,
+          "fromLaneObjectName": "Lane_042_Gehweg_oder_Radweg_0_im_Arm_2_UNSPECIFIED",
+          "toLaneId": 41,
+          "connectionId": 73,
+          "maneuvers": []
+        }
+      ]
+    },
+    {
+      "signalGroup": 27,
+      "movements": [
+        {
+          "fromLaneId": 43,
+          "fromLaneObjectName": "Lane_043_Gehweg_oder_Radweg_0_im_Arm_3_UNSPECIFIED",
+          "toLaneId": 44,
+          "connectionId": 9,
+          "maneuvers": []
+        },
+        {
+          "fromLaneId": 44,
+          "fromLaneObjectName": "Lane_044_Gehweg_oder_Radweg_0_im_Arm_3_UNSPECIFIED",
+          "toLaneId": 43,
+          "connectionId": 10,
+          "maneuvers": []
+        }
+      ]
+    },
+    {
+      "signalGroup": 28,
+      "movements": [
+        {
+          "fromLaneId": 43,
+          "fromLaneObjectName": "Lane_043_Gehweg_oder_Radweg_0_im_Arm_3_UNSPECIFIED",
+          "toLaneId": 44,
+          "connectionId": 75,
+          "maneuvers": []
+        },
+        {
+          "fromLaneId": 44,
+          "fromLaneObjectName": "Lane_044_Gehweg_oder_Radweg_0_im_Arm_3_UNSPECIFIED",
+          "toLaneId": 43,
+          "connectionId": 76,
+          "maneuvers": []
+        }
+      ]
+    },
+    {
+      "signalGroup": 29,
+      "movements": [
+        {
+          "fromLaneId": 45,
+          "fromLaneObjectName": "Lane_045_Gehweg_oder_Radweg_0_im_Arm_3_UNSPECIFIED",
+          "toLaneId": 46,
+          "connectionId": 11,
+          "maneuvers": []
+        },
+        {
+          "fromLaneId": 46,
+          "fromLaneObjectName": "Lane_046_Gehweg_oder_Radweg_0_im_Arm_3_UNSPECIFIED",
+          "toLaneId": 45,
+          "connectionId": 12,
+          "maneuvers": []
+        }
+      ]
+    },
+    {
+      "signalGroup": 30,
+      "movements": [
+        {
+          "fromLaneId": 45,
+          "fromLaneObjectName": "Lane_045_Gehweg_oder_Radweg_0_im_Arm_3_UNSPECIFIED",
+          "toLaneId": 46,
+          "connectionId": 78,
+          "maneuvers": []
+        },
+        {
+          "fromLaneId": 46,
+          "fromLaneObjectName": "Lane_046_Gehweg_oder_Radweg_0_im_Arm_3_UNSPECIFIED",
+          "toLaneId": 45,
+          "connectionId": 77,
+          "maneuvers": []
+        }
+      ]
+    },
+    {
+      "signalGroup": 31,
+      "movements": [
+        {
+          "fromLaneId": 47,
+          "fromLaneObjectName": "Lane_047_Gehweg_oder_Radweg_0_im_Arm_4_UNSPECIFIED",
+          "toLaneId": 48,
+          "connectionId": 13,
+          "maneuvers": []
+        },
+        {
+          "fromLaneId": 48,
+          "fromLaneObjectName": "Lane_048_Gehweg_oder_Radweg_0_im_Arm_4_UNSPECIFIED",
+          "toLaneId": 47,
+          "connectionId": 14,
+          "maneuvers": []
+        }
+      ]
+    },
+    {
+      "signalGroup": 32,
+      "movements": [
+        {
+          "fromLaneId": 48,
+          "fromLaneObjectName": "Lane_048_Gehweg_oder_Radweg_0_im_Arm_4_UNSPECIFIED",
+          "toLaneId": 47,
+          "connectionId": 79,
+          "maneuvers": []
+        }
+      ]
+    },
+    {
+      "signalGroup": 33,
+      "movements": [
+        {
+          "fromLaneId": 49,
+          "fromLaneObjectName": "Lane_049_Gehweg_oder_Radweg_0_im_Arm_4_UNSPECIFIED",
+          "toLaneId": 50,
+          "connectionId": 15,
+          "maneuvers": []
+        },
+        {
+          "fromLaneId": 50,
+          "fromLaneObjectName": "Lane_050_Gehweg_oder_Radweg_0_im_Arm_4_UNSPECIFIED",
+          "toLaneId": 49,
+          "connectionId": 16,
+          "maneuvers": []
+        }
+      ]
+    },
+    {
+      "signalGroup": 34,
+      "movements": [
+        {
+          "fromLaneId": 49,
+          "fromLaneObjectName": "Lane_049_Gehweg_oder_Radweg_0_im_Arm_4_UNSPECIFIED",
+          "toLaneId": 50,
+          "connectionId": 81,
+          "maneuvers": []
+        },
+        {
+          "fromLaneId": 50,
+          "fromLaneObjectName": "Lane_050_Gehweg_oder_Radweg_0_im_Arm_4_UNSPECIFIED",
+          "toLaneId": 49,
+          "connectionId": 82,
+          "maneuvers": []
+        }
+      ]
+    },
+    {
+      "signalGroup": 35,
+      "movements": [
+        {
+          "fromLaneId": 51,
+          "fromLaneObjectName": "Lane_051_Gehweg_oder_Radweg_0_im_Arm_7_UNSPECIFIED",
+          "toLaneId": 52,
+          "connectionId": 17,
+          "maneuvers": []
+        },
+        {
+          "fromLaneId": 52,
+          "fromLaneObjectName": "Lane_052_Gehweg_oder_Radweg_0_im_Arm_7_UNSPECIFIED",
+          "toLaneId": 51,
+          "connectionId": 18,
+          "maneuvers": []
+        }
+      ]
+    },
+    {
+      "signalGroup": 36,
+      "movements": [
+        {
+          "fromLaneId": 51,
+          "fromLaneObjectName": "Lane_051_Gehweg_oder_Radweg_0_im_Arm_7_UNSPECIFIED",
+          "toLaneId": 52,
+          "connectionId": 83,
+          "maneuvers": []
+        },
+        {
+          "fromLaneId": 52,
+          "fromLaneObjectName": "Lane_052_Gehweg_oder_Radweg_0_im_Arm_7_UNSPECIFIED",
+          "toLaneId": 51,
+          "connectionId": 84,
+          "maneuvers": []
+        }
+      ]
+    },
+    {
+      "signalGroup": 37,
+      "movements": [
+        {
+          "fromLaneId": 53,
+          "fromLaneObjectName": "Lane_053_Gehweg_oder_Radweg_0_im_Arm_7_UNSPECIFIED",
+          "toLaneId": 54,
+          "connectionId": 19,
+          "maneuvers": []
+        },
+        {
+          "fromLaneId": 54,
+          "fromLaneObjectName": "Lane_054_Gehweg_oder_Radweg_0_im_Arm_7_UNSPECIFIED",
+          "toLaneId": 53,
+          "connectionId": 20,
+          "maneuvers": []
+        }
+      ]
+    },
+    {
+      "signalGroup": 38,
+      "movements": [
+        {
+          "fromLaneId": 53,
+          "fromLaneObjectName": "Lane_053_Gehweg_oder_Radweg_0_im_Arm_7_UNSPECIFIED",
+          "toLaneId": 54,
+          "connectionId": 86,
+          "maneuvers": []
+        },
+        {
+          "fromLaneId": 54,
+          "fromLaneObjectName": "Lane_054_Gehweg_oder_Radweg_0_im_Arm_7_UNSPECIFIED",
+          "toLaneId": 53,
+          "connectionId": 85,
+          "maneuvers": []
+        }
+      ]
+    },
+    {
+      "signalGroup": 39,
+      "movements": [
+        {
+          "fromLaneId": 55,
+          "fromLaneObjectName": "Lane_055_Gehweg_oder_Radweg_0_im_Arm_6_UNSPECIFIED",
+          "toLaneId": 56,
+          "connectionId": 21,
+          "maneuvers": []
+        },
+        {
+          "fromLaneId": 56,
+          "fromLaneObjectName": "Lane_056_Gehweg_oder_Radweg_0_im_Arm_6_UNSPECIFIED",
+          "toLaneId": 55,
+          "connectionId": 22,
+          "maneuvers": []
+        }
+      ]
+    },
+    {
+      "signalGroup": 40,
+      "movements": [
+        {
+          "fromLaneId": 55,
+          "fromLaneObjectName": "Lane_055_Gehweg_oder_Radweg_0_im_Arm_6_UNSPECIFIED",
+          "toLaneId": 56,
+          "connectionId": 88,
+          "maneuvers": []
+        },
+        {
+          "fromLaneId": 56,
+          "fromLaneObjectName": "Lane_056_Gehweg_oder_Radweg_0_im_Arm_6_UNSPECIFIED",
+          "toLaneId": 55,
+          "connectionId": 87,
+          "maneuvers": []
+        }
+      ]
+    },
+    {
+      "signalGroup": 41,
+      "movements": [
+        {
+          "fromLaneId": 57,
+          "fromLaneObjectName": "Lane_057_Gehweg_oder_Radweg_0_im_Arm_6_UNSPECIFIED",
+          "toLaneId": 58,
+          "connectionId": 23,
+          "maneuvers": []
+        },
+        {
+          "fromLaneId": 58,
+          "fromLaneObjectName": "Lane_058_Gehweg_oder_Radweg_0_im_Arm_6_UNSPECIFIED",
+          "toLaneId": 57,
+          "connectionId": 24,
+          "maneuvers": []
+        }
+      ]
+    },
+    {
+      "signalGroup": 42,
+      "movements": [
+        {
+          "fromLaneId": 57,
+          "fromLaneObjectName": "Lane_057_Gehweg_oder_Radweg_0_im_Arm_6_UNSPECIFIED",
+          "toLaneId": 58,
+          "connectionId": 90,
+          "maneuvers": []
+        },
+        {
+          "fromLaneId": 58,
+          "fromLaneObjectName": "Lane_058_Gehweg_oder_Radweg_0_im_Arm_6_UNSPECIFIED",
+          "toLaneId": 57,
+          "connectionId": 89,
+          "maneuvers": []
+        }
+      ]
+    }
+  ],
+  "laneSolidThicknessMeters": 0.15,
+  "lanes": [
+    {
+      "laneId": 1,
+      "name": "Fahrstreifen 1 im Arm 1",
+      "direction": "INGRESS",
+      "ingressApproach": "1",
+      "egressApproach": null,
+      "widthMeters": 3.25,
+      "nodeCount": 4,
+      "objectName": "Lane_001_Fahrstreifen_1_im_Arm_1_INGRESS",
+      "arrowObjectName": "Arrow_Lane_001_INGRESS",
+      "signalGroups": [
+        8,
+        10
+      ],
+      "connections": [
+        {
+          "targetLaneId": 16,
+          "signalGroup": 8,
+          "connectionId": 47,
+          "maneuverRaw": "80:00",
+          "maneuvers": [
+            "maneuverStraightAllowed"
+          ]
+        },
+        {
+          "targetLaneId": 7,
+          "signalGroup": 10,
+          "connectionId": 48,
+          "maneuverRaw": "40:00",
+          "maneuvers": [
+            "maneuverLeftAllowed"
+          ]
+        },
+        {
+          "targetLaneId": 8,
+          "signalGroup": 10,
+          "connectionId": 50,
+          "maneuverRaw": "40:00",
+          "maneuvers": [
+            "maneuverLeftAllowed"
+          ]
+        },
+        {
+          "targetLaneId": 9,
+          "signalGroup": 10,
+          "connectionId": 49,
+          "maneuverRaw": "40:00",
+          "maneuvers": [
+            "maneuverLeftAllowed"
+          ]
+        }
+      ],
+      "centerlineMapMeters": [
+        {
+          "east": 15.6,
+          "north": -20.38
+        },
+        {
+          "east": 12.84,
+          "north": -21.19
+        },
+        {
+          "east": -36.49,
+          "north": -36.3
+        },
+        {
+          "east": -272.11,
+          "north": -109.47
+        }
+      ],
+      "centerlineThreeJsMeters": [
+        {
+          "x": 15.6,
+          "y": 0,
+          "z": 20.38
+        },
+        {
+          "x": 12.84,
+          "y": 0,
+          "z": 21.19
+        },
+        {
+          "x": -36.49,
+          "y": 0,
+          "z": 36.3
+        },
+        {
+          "x": -272.11,
+          "y": 0,
+          "z": 109.47
+        }
+      ]
+    },
+    {
+      "laneId": 2,
+      "name": "Fahrstreifen 2 im Arm 1",
+      "direction": "INGRESS",
+      "ingressApproach": "1",
+      "egressApproach": null,
+      "widthMeters": 3.25,
+      "nodeCount": 3,
+      "objectName": "Lane_002_Fahrstreifen_2_im_Arm_1_INGRESS",
+      "arrowObjectName": "Arrow_Lane_002_INGRESS",
+      "signalGroups": [
+        8,
+        9
+      ],
+      "connections": [
+        {
+          "targetLaneId": 17,
+          "signalGroup": 8,
+          "connectionId": 44,
+          "maneuverRaw": "80:00",
+          "maneuvers": [
+            "maneuverStraightAllowed"
+          ]
+        },
+        {
+          "targetLaneId": 23,
+          "signalGroup": 9,
+          "connectionId": 66,
+          "maneuverRaw": "20:00",
+          "maneuvers": [
+            "maneuverRightAllowed"
+          ]
+        }
+      ],
+      "centerlineMapMeters": [
+        {
+          "east": 16.44,
+          "north": -23.32
+        },
+        {
+          "east": 13.68,
+          "north": -24.13
+        },
+        {
+          "east": -271,
+          "north": -112.51
+        }
+      ],
+      "centerlineThreeJsMeters": [
+        {
+          "x": 16.44,
+          "y": 0,
+          "z": 23.32
+        },
+        {
+          "x": 13.68,
+          "y": 0,
+          "z": 24.13
+        },
+        {
+          "x": -271,
+          "y": 0,
+          "z": 112.51
+        }
+      ]
+    },
+    {
+      "laneId": 3,
+      "name": "Fahrstreifen 3 im Arm 1",
+      "direction": "INGRESS",
+      "ingressApproach": "1",
+      "egressApproach": null,
+      "widthMeters": 3.25,
+      "nodeCount": 4,
+      "objectName": "Lane_003_Fahrstreifen_3_im_Arm_1_INGRESS",
+      "arrowObjectName": "Arrow_Lane_003_INGRESS",
+      "signalGroups": [
+        9
+      ],
+      "connections": [
+        {
+          "targetLaneId": 22,
+          "signalGroup": 9,
+          "connectionId": 45,
+          "maneuverRaw": "20:00",
+          "maneuvers": [
+            "maneuverRightAllowed"
+          ]
+        },
+        {
+          "targetLaneId": 21,
+          "signalGroup": 9,
+          "connectionId": 46,
+          "maneuverRaw": "20:00",
+          "maneuvers": [
+            "maneuverRightAllowed"
+          ]
+        },
+        {
+          "targetLaneId": 23,
+          "signalGroup": 9,
+          "connectionId": 62,
+          "maneuverRaw": "20:00",
+          "maneuvers": [
+            "maneuverRightAllowed"
+          ]
+        }
+      ],
+      "centerlineMapMeters": [
+        {
+          "east": 17.36,
+          "north": -26
+        },
+        {
+          "east": 14.6,
+          "north": -26.81
+        },
+        {
+          "east": -21.7,
+          "north": -37.66
+        },
+        {
+          "east": -36.51,
+          "north": -36.22
+        }
+      ],
+      "centerlineThreeJsMeters": [
+        {
+          "x": 17.36,
+          "y": 0,
+          "z": 26
+        },
+        {
+          "x": 14.6,
+          "y": 0,
+          "z": 26.81
+        },
+        {
+          "x": -21.7,
+          "y": 0,
+          "z": 37.66
+        },
+        {
+          "x": -36.51,
+          "y": 0,
+          "z": 36.22
+        }
+      ]
+    },
+    {
+      "laneId": 4,
+      "name": "Fahrstreifen 1 im Arm 2",
+      "direction": "INGRESS",
+      "ingressApproach": "2",
+      "egressApproach": null,
+      "widthMeters": 3.25,
+      "nodeCount": 3,
+      "objectName": "Lane_004_Fahrstreifen_1_im_Arm_2_INGRESS",
+      "arrowObjectName": "Arrow_Lane_004_INGRESS",
+      "signalGroups": [
+        14
+      ],
+      "connections": [
+        {
+          "targetLaneId": 16,
+          "signalGroup": 14,
+          "connectionId": 56,
+          "maneuverRaw": "40:00",
+          "maneuvers": [
+            "maneuverLeftAllowed"
+          ]
+        }
+      ],
+      "centerlineMapMeters": [
+        {
+          "east": 28.44,
+          "north": 15.65
+        },
+        {
+          "east": 26.97,
+          "north": 21.04
+        },
+        {
+          "east": 14.42,
+          "north": 62.74
+        }
+      ],
+      "centerlineThreeJsMeters": [
+        {
+          "x": 28.44,
+          "y": 0,
+          "z": -15.65
+        },
+        {
+          "x": 26.97,
+          "y": 0,
+          "z": -21.04
+        },
+        {
+          "x": 14.42,
+          "y": 0,
+          "z": -62.74
+        }
+      ]
+    },
+    {
+      "laneId": 5,
+      "name": "Fahrstreifen 2 im Arm 2",
+      "direction": "INGRESS",
+      "ingressApproach": "2",
+      "egressApproach": null,
+      "widthMeters": 3.25,
+      "nodeCount": 3,
+      "objectName": "Lane_005_Fahrstreifen_2_im_Arm_2_INGRESS",
+      "arrowObjectName": "Arrow_Lane_005_INGRESS",
+      "signalGroups": [
+        16
+      ],
+      "connections": [
+        {
+          "targetLaneId": 22,
+          "signalGroup": 16,
+          "connectionId": 60,
+          "maneuverRaw": "80:00",
+          "maneuvers": [
+            "maneuverStraightAllowed"
+          ]
+        }
+      ],
+      "centerlineMapMeters": [
+        {
+          "east": 25.59,
+          "north": 14.82
+        },
+        {
+          "east": 24.14,
+          "north": 19.61
+        },
+        {
+          "east": 11.38,
+          "north": 61.75
+        }
+      ],
+      "centerlineThreeJsMeters": [
+        {
+          "x": 25.59,
+          "y": 0,
+          "z": -14.82
+        },
+        {
+          "x": 24.14,
+          "y": 0,
+          "z": -19.61
+        },
+        {
+          "x": 11.38,
+          "y": 0,
+          "z": -61.75
+        }
+      ]
+    },
+    {
+      "laneId": 6,
+      "name": "Fahrstreifen 3 im Arm 2",
+      "direction": "INGRESS",
+      "ingressApproach": "2",
+      "egressApproach": null,
+      "widthMeters": 3.25,
+      "nodeCount": 3,
+      "objectName": "Lane_006_Fahrstreifen_3_im_Arm_2_INGRESS",
+      "arrowObjectName": "Arrow_Lane_006_INGRESS",
+      "signalGroups": [
+        15,
+        16
+      ],
+      "connections": [
+        {
+          "targetLaneId": 12,
+          "signalGroup": 15,
+          "connectionId": 59,
+          "maneuverRaw": "20:00",
+          "maneuvers": [
+            "maneuverRightAllowed"
+          ]
+        },
+        {
+          "targetLaneId": 23,
+          "signalGroup": 16,
+          "connectionId": 61,
+          "maneuverRaw": "80:00",
+          "maneuvers": [
+            "maneuverStraightAllowed"
+          ]
+        },
+        {
+          "targetLaneId": 11,
+          "signalGroup": 15,
+          "connectionId": 64,
+          "maneuverRaw": "20:00",
+          "maneuvers": [
+            "maneuverRightAllowed"
+          ]
+        }
+      ],
+      "centerlineMapMeters": [
+        {
+          "east": 22.57,
+          "north": 13.91
+        },
+        {
+          "east": 21.12,
+          "north": 18.7
+        },
+        {
+          "east": 8.56,
+          "north": 61.01
+        }
+      ],
+      "centerlineThreeJsMeters": [
+        {
+          "x": 22.57,
+          "y": 0,
+          "z": -13.91
+        },
+        {
+          "x": 21.12,
+          "y": 0,
+          "z": -18.7
+        },
+        {
+          "x": 8.56,
+          "y": 0,
+          "z": -61.01
+        }
+      ]
+    },
+    {
+      "laneId": 7,
+      "name": "Fahrstreifen 4 im Arm 2",
+      "direction": "EGRESS",
+      "ingressApproach": null,
+      "egressApproach": "2",
+      "widthMeters": 3.25,
+      "nodeCount": 3,
+      "objectName": "Lane_007_Fahrstreifen_4_im_Arm_2_EGRESS",
+      "arrowObjectName": "Arrow_Lane_007_EGRESS",
+      "signalGroups": [],
+      "connections": [],
+      "centerlineMapMeters": [
+        {
+          "east": 40.64,
+          "north": 16.7
+        },
+        {
+          "east": 40.29,
+          "north": 18.51
+        },
+        {
+          "east": 40.62,
+          "north": 18.53
+        }
+      ],
+      "centerlineThreeJsMeters": [
+        {
+          "x": 40.64,
+          "y": 0,
+          "z": -16.7
+        },
+        {
+          "x": 40.29,
+          "y": 0,
+          "z": -18.51
+        },
+        {
+          "x": 40.62,
+          "y": 0,
+          "z": -18.53
+        }
+      ]
+    },
+    {
+      "laneId": 8,
+      "name": "Fahrstreifen 5 im Arm 2",
+      "direction": "EGRESS",
+      "ingressApproach": null,
+      "egressApproach": "2",
+      "widthMeters": 3.25,
+      "nodeCount": 3,
+      "objectName": "Lane_008_Fahrstreifen_5_im_Arm_2_EGRESS",
+      "arrowObjectName": "Arrow_Lane_008_EGRESS",
+      "signalGroups": [],
+      "connections": [],
+      "centerlineMapMeters": [
+        {
+          "east": 43.78,
+          "north": 17.18
+        },
+        {
+          "east": 43.57,
+          "north": 18.59
+        },
+        {
+          "east": 43.93,
+          "north": 19.41
+        }
+      ],
+      "centerlineThreeJsMeters": [
+        {
+          "x": 43.78,
+          "y": 0,
+          "z": -17.18
+        },
+        {
+          "x": 43.57,
+          "y": 0,
+          "z": -18.59
+        },
+        {
+          "x": 43.93,
+          "y": 0,
+          "z": -19.41
+        }
+      ]
+    },
+    {
+      "laneId": 9,
+      "name": "Fahrstreifen 6 im Arm 2",
+      "direction": "EGRESS",
+      "ingressApproach": null,
+      "egressApproach": "2",
+      "widthMeters": 3.25,
+      "nodeCount": 3,
+      "objectName": "Lane_009_Fahrstreifen_6_im_Arm_2_EGRESS",
+      "arrowObjectName": "Arrow_Lane_009_EGRESS",
+      "signalGroups": [],
+      "connections": [],
+      "centerlineMapMeters": [
+        {
+          "east": 47.55,
+          "north": 17.59
+        },
+        {
+          "east": 47.14,
+          "north": 19.2
+        },
+        {
+          "east": 47.01,
+          "north": 20.08
+        }
+      ],
+      "centerlineThreeJsMeters": [
+        {
+          "x": 47.55,
+          "y": 0,
+          "z": -17.59
+        },
+        {
+          "x": 47.14,
+          "y": 0,
+          "z": -19.2
+        },
+        {
+          "x": 47.01,
+          "y": 0,
+          "z": -20.08
+        }
+      ]
+    },
+    {
+      "laneId": 10,
+      "name": "Fahrstreifen 4 im Arm 1",
+      "direction": "EGRESS",
+      "ingressApproach": null,
+      "egressApproach": "1",
+      "widthMeters": 3.25,
+      "nodeCount": 3,
+      "objectName": "Lane_010_Fahrstreifen_4_im_Arm_1_EGRESS",
+      "arrowObjectName": "Arrow_Lane_010_EGRESS",
+      "signalGroups": [],
+      "connections": [],
+      "centerlineMapMeters": [
+        {
+          "east": 14.21,
+          "north": -9.67
+        },
+        {
+          "east": 8.44,
+          "north": -11.36
+        },
+        {
+          "east": 4.29,
+          "north": -12.45
+        }
+      ],
+      "centerlineThreeJsMeters": [
+        {
+          "x": 14.21,
+          "y": 0,
+          "z": 9.67
+        },
+        {
+          "x": 8.44,
+          "y": 0,
+          "z": 11.36
+        },
+        {
+          "x": 4.29,
+          "y": 0,
+          "z": 12.45
+        }
+      ]
+    },
+    {
+      "laneId": 11,
+      "name": "Fahrstreifen 5 im Arm 1",
+      "direction": "EGRESS",
+      "ingressApproach": null,
+      "egressApproach": "1",
+      "widthMeters": 3.25,
+      "nodeCount": 3,
+      "objectName": "Lane_011_Fahrstreifen_5_im_Arm_1_EGRESS",
+      "arrowObjectName": "Arrow_Lane_011_EGRESS",
+      "signalGroups": [],
+      "connections": [],
+      "centerlineMapMeters": [
+        {
+          "east": 12.6,
+          "north": -6.77
+        },
+        {
+          "east": 9.92,
+          "north": -7.61
+        },
+        {
+          "east": 3.32,
+          "north": -9.64
+        }
+      ],
+      "centerlineThreeJsMeters": [
+        {
+          "x": 12.6,
+          "y": 0,
+          "z": 6.77
+        },
+        {
+          "x": 9.92,
+          "y": 0,
+          "z": 7.61
+        },
+        {
+          "x": 3.32,
+          "y": 0,
+          "z": 9.64
+        }
+      ]
+    },
+    {
+      "laneId": 12,
+      "name": "Fahrstreifen 6 im Arm 1",
+      "direction": "EGRESS",
+      "ingressApproach": null,
+      "egressApproach": "1",
+      "widthMeters": 3.25,
+      "nodeCount": 3,
+      "objectName": "Lane_012_Fahrstreifen_6_im_Arm_1_EGRESS",
+      "arrowObjectName": "Arrow_Lane_012_EGRESS",
+      "signalGroups": [],
+      "connections": [],
+      "centerlineMapMeters": [
+        {
+          "east": 11.82,
+          "north": -3.89
+        },
+        {
+          "east": 7.02,
+          "north": -5.3
+        },
+        {
+          "east": 2.3,
+          "north": -6.5
+        }
+      ],
+      "centerlineThreeJsMeters": [
+        {
+          "x": 11.82,
+          "y": 0,
+          "z": 3.89
+        },
+        {
+          "x": 7.02,
+          "y": 0,
+          "z": 5.3
+        },
+        {
+          "x": 2.3,
+          "y": 0,
+          "z": 6.5
+        }
+      ]
+    },
+    {
+      "laneId": 13,
+      "name": "Fahrstreifen 1 im Arm 3",
+      "direction": "INGRESS",
+      "ingressApproach": "3",
+      "egressApproach": null,
+      "widthMeters": 3.25,
+      "nodeCount": 4,
+      "objectName": "Lane_013_Fahrstreifen_1_im_Arm_3_INGRESS",
+      "arrowObjectName": "Arrow_Lane_013_INGRESS",
+      "signalGroups": [
+        7,
+        18
+      ],
+      "connections": [
+        {
+          "targetLaneId": 10,
+          "signalGroup": 7,
+          "connectionId": 43,
+          "maneuverRaw": "80:00",
+          "maneuvers": [
+            "maneuverStraightAllowed"
+          ]
+        },
+        {
+          "targetLaneId": 12,
+          "signalGroup": 7,
+          "connectionId": 57,
+          "maneuverRaw": "80:00",
+          "maneuvers": [
+            "maneuverStraightAllowed"
+          ]
+        },
+        {
+          "targetLaneId": 21,
+          "signalGroup": 18,
+          "connectionId": 91,
+          "maneuverRaw": "40:00",
+          "maneuvers": [
+            "maneuverLeftAllowed"
+          ]
+        },
+        {
+          "targetLaneId": 23,
+          "signalGroup": 18,
+          "connectionId": 92,
+          "maneuverRaw": "40:00",
+          "maneuvers": [
+            "maneuverLeftAllowed"
+          ]
+        },
+        {
+          "targetLaneId": 22,
+          "signalGroup": 18,
+          "connectionId": 93,
+          "maneuverRaw": "40:00",
+          "maneuvers": [
+            "maneuverLeftAllowed"
+          ]
+        }
+      ],
+      "centerlineMapMeters": [
+        {
+          "east": 64.1,
+          "north": 3.57
+        },
+        {
+          "east": 69.05,
+          "north": 4.34
+        },
+        {
+          "east": 131.32,
+          "north": 15.04
+        },
+        {
+          "east": 305.16,
+          "north": 44.8
+        }
+      ],
+      "centerlineThreeJsMeters": [
+        {
+          "x": 64.1,
+          "y": 0,
+          "z": -3.57
+        },
+        {
+          "x": 69.05,
+          "y": 0,
+          "z": -4.34
+        },
+        {
+          "x": 131.32,
+          "y": 0,
+          "z": -15.04
+        },
+        {
+          "x": 305.16,
+          "y": 0,
+          "z": -44.8
+        }
+      ]
+    },
+    {
+      "laneId": 14,
+      "name": "Fahrstreifen 2 im Arm 3",
+      "direction": "INGRESS",
+      "ingressApproach": "3",
+      "egressApproach": null,
+      "widthMeters": 3.25,
+      "nodeCount": 3,
+      "objectName": "Lane_014_Fahrstreifen_2_im_Arm_3_INGRESS",
+      "arrowObjectName": "Arrow_Lane_014_INGRESS",
+      "signalGroups": [
+        7
+      ],
+      "connections": [
+        {
+          "targetLaneId": 11,
+          "signalGroup": 7,
+          "connectionId": 58,
+          "maneuverRaw": "80:00",
+          "maneuvers": [
+            "maneuverStraightAllowed"
+          ]
+        }
+      ],
+      "centerlineMapMeters": [
+        {
+          "east": 63.54,
+          "north": 6.75
+        },
+        {
+          "east": 68.49,
+          "north": 7.52
+        },
+        {
+          "east": 304.78,
+          "north": 48.01
+        }
+      ],
+      "centerlineThreeJsMeters": [
+        {
+          "x": 63.54,
+          "y": 0,
+          "z": -6.75
+        },
+        {
+          "x": 68.49,
+          "y": 0,
+          "z": -7.52
+        },
+        {
+          "x": 304.78,
+          "y": 0,
+          "z": -48.01
+        }
+      ]
+    },
+    {
+      "laneId": 15,
+      "name": "Fahrstreifen 3 im Arm 3",
+      "direction": "INGRESS",
+      "ingressApproach": "3",
+      "egressApproach": null,
+      "widthMeters": 3.25,
+      "nodeCount": 4,
+      "objectName": "Lane_015_Fahrstreifen_3_im_Arm_3_INGRESS",
+      "arrowObjectName": "Arrow_Lane_015_INGRESS",
+      "signalGroups": [
+        6
+      ],
+      "connections": [
+        {
+          "targetLaneId": 8,
+          "signalGroup": 6,
+          "connectionId": 39,
+          "maneuverRaw": "20:00",
+          "maneuvers": [
+            "maneuverRightAllowed"
+          ]
+        },
+        {
+          "targetLaneId": 7,
+          "signalGroup": 6,
+          "connectionId": 40,
+          "maneuverRaw": "20:00",
+          "maneuvers": [
+            "maneuverRightAllowed"
+          ]
+        },
+        {
+          "targetLaneId": 9,
+          "signalGroup": 6,
+          "connectionId": 38,
+          "maneuverRaw": "20:00",
+          "maneuvers": [
+            "maneuverRightAllowed"
+          ]
+        }
+      ],
+      "centerlineMapMeters": [
+        {
+          "east": 63.13,
+          "north": 9.64
+        },
+        {
+          "east": 68.08,
+          "north": 10.41
+        },
+        {
+          "east": 119.43,
+          "north": 19.09
+        },
+        {
+          "east": 131.33,
+          "north": 15.04
+        }
+      ],
+      "centerlineThreeJsMeters": [
+        {
+          "x": 63.13,
+          "y": 0,
+          "z": -9.64
+        },
+        {
+          "x": 68.08,
+          "y": 0,
+          "z": -10.41
+        },
+        {
+          "x": 119.43,
+          "y": 0,
+          "z": -19.09
+        },
+        {
+          "x": 131.33,
+          "y": 0,
+          "z": -15.04
+        }
+      ]
+    },
+    {
+      "laneId": 16,
+      "name": "Fahrstreifen 4 im Arm 3",
+      "direction": "EGRESS",
+      "ingressApproach": null,
+      "egressApproach": "3",
+      "widthMeters": 3.25,
+      "nodeCount": 3,
+      "objectName": "Lane_016_Fahrstreifen_4_im_Arm_3_EGRESS",
+      "arrowObjectName": "Arrow_Lane_016_EGRESS",
+      "signalGroups": [],
+      "connections": [],
+      "centerlineMapMeters": [
+        {
+          "east": 65.73,
+          "north": -7.73
+        },
+        {
+          "east": 70.68,
+          "north": -6.96
+        },
+        {
+          "east": 84.8,
+          "north": -4.85
+        }
+      ],
+      "centerlineThreeJsMeters": [
+        {
+          "x": 65.73,
+          "y": 0,
+          "z": 7.73
+        },
+        {
+          "x": 70.68,
+          "y": 0,
+          "z": 6.96
+        },
+        {
+          "x": 84.8,
+          "y": 0,
+          "z": 4.85
+        }
+      ]
+    },
+    {
+      "laneId": 17,
+      "name": "Fahrstreifen 5 im Arm 3",
+      "direction": "EGRESS",
+      "ingressApproach": null,
+      "egressApproach": "3",
+      "widthMeters": 3.25,
+      "nodeCount": 3,
+      "objectName": "Lane_017_Fahrstreifen_5_im_Arm_3_EGRESS",
+      "arrowObjectName": "Arrow_Lane_017_EGRESS",
+      "signalGroups": [],
+      "connections": [],
+      "centerlineMapMeters": [
+        {
+          "east": 66.39,
+          "north": -12.4
+        },
+        {
+          "east": 70.94,
+          "north": -11.64
+        },
+        {
+          "east": 85.41,
+          "north": -9.54
+        }
+      ],
+      "centerlineThreeJsMeters": [
+        {
+          "x": 66.39,
+          "y": 0,
+          "z": 12.4
+        },
+        {
+          "x": 70.94,
+          "y": 0,
+          "z": 11.64
+        },
+        {
+          "x": 85.41,
+          "y": 0,
+          "z": 9.54
+        }
+      ]
+    },
+    {
+      "laneId": 18,
+      "name": "Fahrstreifen 1 im Arm 4",
+      "direction": "INGRESS",
+      "ingressApproach": "4",
+      "egressApproach": null,
+      "widthMeters": 3.25,
+      "nodeCount": 3,
+      "objectName": "Lane_018_Fahrstreifen_1_im_Arm_4_INGRESS",
+      "arrowObjectName": "Arrow_Lane_018_INGRESS",
+      "signalGroups": [
+        11
+      ],
+      "connections": [
+        {
+          "targetLaneId": 10,
+          "signalGroup": 11,
+          "connectionId": 51,
+          "maneuverRaw": "40:00",
+          "maneuvers": [
+            "maneuverLeftAllowed"
+          ]
+        },
+        {
+          "targetLaneId": 12,
+          "signalGroup": 11,
+          "connectionId": 52,
+          "maneuverRaw": "40:00",
+          "maneuvers": [
+            "maneuverLeftAllowed"
+          ]
+        }
+      ],
+      "centerlineMapMeters": [
+        {
+          "east": 47.92,
+          "north": -29.38
+        },
+        {
+          "east": 48.56,
+          "north": -34.34
+        },
+        {
+          "east": 56.74,
+          "north": -102.33
+        }
+      ],
+      "centerlineThreeJsMeters": [
+        {
+          "x": 47.92,
+          "y": 0,
+          "z": 29.38
+        },
+        {
+          "x": 48.56,
+          "y": 0,
+          "z": 34.34
+        },
+        {
+          "x": 56.74,
+          "y": 0,
+          "z": 102.33
+        }
+      ]
+    },
+    {
+      "laneId": 19,
+      "name": "Fahrstreifen 2 im Arm 4",
+      "direction": "INGRESS",
+      "ingressApproach": "4",
+      "egressApproach": null,
+      "widthMeters": 3.25,
+      "nodeCount": 5,
+      "objectName": "Lane_019_Fahrstreifen_2_im_Arm_4_INGRESS",
+      "arrowObjectName": "Arrow_Lane_019_INGRESS",
+      "signalGroups": [
+        12
+      ],
+      "connections": [
+        {
+          "targetLaneId": 8,
+          "signalGroup": 12,
+          "connectionId": 53,
+          "maneuverRaw": "80:00",
+          "maneuvers": [
+            "maneuverStraightAllowed"
+          ]
+        }
+      ],
+      "centerlineMapMeters": [
+        {
+          "east": 51.07,
+          "north": -28.89
+        },
+        {
+          "east": 51.71,
+          "north": -33.85
+        },
+        {
+          "east": 57.84,
+          "north": -84.82
+        },
+        {
+          "east": 60.39,
+          "north": -99.73
+        },
+        {
+          "east": 60.8,
+          "north": -102.12
+        }
+      ],
+      "centerlineThreeJsMeters": [
+        {
+          "x": 51.07,
+          "y": 0,
+          "z": 28.89
+        },
+        {
+          "x": 51.71,
+          "y": 0,
+          "z": 33.85
+        },
+        {
+          "x": 57.84,
+          "y": 0,
+          "z": 84.82
+        },
+        {
+          "x": 60.39,
+          "y": 0,
+          "z": 99.73
+        },
+        {
+          "x": 60.8,
+          "y": 0,
+          "z": 102.12
+        }
+      ]
+    },
+    {
+      "laneId": 20,
+      "name": "Fahrstreifen 3 im Arm 4",
+      "direction": "INGRESS",
+      "ingressApproach": "4",
+      "egressApproach": null,
+      "widthMeters": 3.25,
+      "nodeCount": 4,
+      "objectName": "Lane_020_Fahrstreifen_3_im_Arm_4_INGRESS",
+      "arrowObjectName": "Arrow_Lane_020_INGRESS",
+      "signalGroups": [
+        12,
+        13
+      ],
+      "connections": [
+        {
+          "targetLaneId": 9,
+          "signalGroup": 12,
+          "connectionId": 54,
+          "maneuverRaw": "80:00",
+          "maneuvers": [
+            "maneuverStraightAllowed"
+          ]
+        },
+        {
+          "targetLaneId": 16,
+          "signalGroup": 13,
+          "connectionId": 55,
+          "maneuverRaw": "20:00",
+          "maneuvers": [
+            "maneuverRightAllowed"
+          ]
+        },
+        {
+          "targetLaneId": 17,
+          "signalGroup": 13,
+          "connectionId": 65,
+          "maneuverRaw": "20:00",
+          "maneuvers": [
+            "maneuverRightAllowed"
+          ]
+        }
+      ],
+      "centerlineMapMeters": [
+        {
+          "east": 54.11,
+          "north": -28.34
+        },
+        {
+          "east": 54.75,
+          "north": -33.3
+        },
+        {
+          "east": 60.74,
+          "north": -79.46
+        },
+        {
+          "east": 60.46,
+          "north": -99.72
+        }
+      ],
+      "centerlineThreeJsMeters": [
+        {
+          "x": 54.11,
+          "y": 0,
+          "z": 28.34
+        },
+        {
+          "x": 54.75,
+          "y": 0,
+          "z": 33.3
+        },
+        {
+          "x": 60.74,
+          "y": 0,
+          "z": 79.46
+        },
+        {
+          "x": 60.46,
+          "y": 0,
+          "z": 99.72
+        }
+      ]
+    },
+    {
+      "laneId": 21,
+      "name": "Fahrstreifen 4 im Arm 4",
+      "direction": "EGRESS",
+      "ingressApproach": null,
+      "egressApproach": "4",
+      "widthMeters": 3.25,
+      "nodeCount": 3,
+      "objectName": "Lane_021_Fahrstreifen_4_im_Arm_4_EGRESS",
+      "arrowObjectName": "Arrow_Lane_021_EGRESS",
+      "signalGroups": [],
+      "connections": [],
+      "centerlineMapMeters": [
+        {
+          "east": 37.66,
+          "north": -33.01
+        },
+        {
+          "east": 38.48,
+          "north": -38.08
+        },
+        {
+          "east": 39.06,
+          "north": -41.5
+        }
+      ],
+      "centerlineThreeJsMeters": [
+        {
+          "x": 37.66,
+          "y": 0,
+          "z": 33.01
+        },
+        {
+          "x": 38.48,
+          "y": 0,
+          "z": 38.08
+        },
+        {
+          "x": 39.06,
+          "y": 0,
+          "z": 41.5
+        }
+      ]
+    },
+    {
+      "laneId": 22,
+      "name": "Fahrstreifen 5 im Arm 4",
+      "direction": "EGRESS",
+      "ingressApproach": null,
+      "egressApproach": "4",
+      "widthMeters": 3.25,
+      "nodeCount": 3,
+      "objectName": "Lane_022_Fahrstreifen_5_im_Arm_4_EGRESS",
+      "arrowObjectName": "Arrow_Lane_022_EGRESS",
+      "signalGroups": [],
+      "connections": [],
+      "centerlineMapMeters": [
+        {
+          "east": 35.7,
+          "north": -33.54
+        },
+        {
+          "east": 36.34,
+          "north": -38.5
+        },
+        {
+          "east": 36.49,
+          "north": -41.78
+        }
+      ],
+      "centerlineThreeJsMeters": [
+        {
+          "x": 35.7,
+          "y": 0,
+          "z": 33.54
+        },
+        {
+          "x": 36.34,
+          "y": 0,
+          "z": 38.5
+        },
+        {
+          "x": 36.49,
+          "y": 0,
+          "z": 41.78
+        }
+      ]
+    },
+    {
+      "laneId": 23,
+      "name": "Fahrstreifen 6 im Arm 4",
+      "direction": "EGRESS",
+      "ingressApproach": null,
+      "egressApproach": "4",
+      "widthMeters": 3.25,
+      "nodeCount": 3,
+      "objectName": "Lane_023_Fahrstreifen_6_im_Arm_4_EGRESS",
+      "arrowObjectName": "Arrow_Lane_023_EGRESS",
+      "signalGroups": [],
+      "connections": [],
+      "centerlineMapMeters": [
+        {
+          "east": 32.24,
+          "north": -33.99
+        },
+        {
+          "east": 33.17,
+          "north": -38.95
+        },
+        {
+          "east": 33.62,
+          "north": -41.71
+        }
+      ],
+      "centerlineThreeJsMeters": [
+        {
+          "x": 32.24,
+          "y": 0,
+          "z": 33.99
+        },
+        {
+          "x": 33.17,
+          "y": 0,
+          "z": 38.95
+        },
+        {
+          "x": 33.62,
+          "y": 0,
+          "z": 41.71
+        }
+      ]
+    },
+    {
+      "laneId": 24,
+      "name": "Fahrstreifen 1 im Arm 5",
+      "direction": "INGRESS",
+      "ingressApproach": "5",
+      "egressApproach": null,
+      "widthMeters": 3.25,
+      "nodeCount": 3,
+      "objectName": "Lane_024_Fahrstreifen_1_im_Arm_5_INGRESS",
+      "arrowObjectName": "Arrow_Lane_024_INGRESS",
+      "signalGroups": [
+        5
+      ],
+      "connections": [
+        {
+          "targetLaneId": 34,
+          "signalGroup": 5,
+          "connectionId": 34,
+          "maneuverRaw": "80:00",
+          "maneuvers": [
+            "maneuverStraightAllowed"
+          ]
+        }
+      ],
+      "centerlineMapMeters": [
+        {
+          "east": 25.99,
+          "north": 69.73
+        },
+        {
+          "east": 27.66,
+          "north": 64.55
+        },
+        {
+          "east": 40.63,
+          "north": 18.54
+        }
+      ],
+      "centerlineThreeJsMeters": [
+        {
+          "x": 25.99,
+          "y": 0,
+          "z": -69.73
+        },
+        {
+          "x": 27.66,
+          "y": 0,
+          "z": -64.55
+        },
+        {
+          "x": 40.63,
+          "y": 0,
+          "z": -18.54
+        }
+      ]
+    },
+    {
+      "laneId": 25,
+      "name": "Fahrstreifen 2 im Arm 5",
+      "direction": "INGRESS",
+      "ingressApproach": "5",
+      "egressApproach": null,
+      "widthMeters": 3.25,
+      "nodeCount": 3,
+      "objectName": "Lane_025_Fahrstreifen_2_im_Arm_5_INGRESS",
+      "arrowObjectName": "Arrow_Lane_025_INGRESS",
+      "signalGroups": [
+        5
+      ],
+      "connections": [
+        {
+          "targetLaneId": 59,
+          "signalGroup": 5,
+          "connectionId": 35,
+          "maneuverRaw": "80:00",
+          "maneuvers": [
+            "maneuverStraightAllowed"
+          ]
+        }
+      ],
+      "centerlineMapMeters": [
+        {
+          "east": 29.31,
+          "north": 71.17
+        },
+        {
+          "east": 31.18,
+          "north": 65.37
+        },
+        {
+          "east": 43.93,
+          "north": 19.41
+        }
+      ],
+      "centerlineThreeJsMeters": [
+        {
+          "x": 29.31,
+          "y": 0,
+          "z": -71.17
+        },
+        {
+          "x": 31.18,
+          "y": 0,
+          "z": -65.37
+        },
+        {
+          "x": 43.93,
+          "y": 0,
+          "z": -19.41
+        }
+      ]
+    },
+    {
+      "laneId": 26,
+      "name": "Fahrstreifen 3 im Arm 5",
+      "direction": "INGRESS",
+      "ingressApproach": "5",
+      "egressApproach": null,
+      "widthMeters": 3.25,
+      "nodeCount": 3,
+      "objectName": "Lane_026_Fahrstreifen_3_im_Arm_5_INGRESS",
+      "arrowObjectName": "Arrow_Lane_026_INGRESS",
+      "signalGroups": [
+        5,
+        17
+      ],
+      "connections": [
+        {
+          "targetLaneId": 59,
+          "signalGroup": 5,
+          "connectionId": 36,
+          "maneuverRaw": "80:00",
+          "maneuvers": [
+            "maneuverStraightAllowed"
+          ]
+        },
+        {
+          "targetLaneId": 31,
+          "signalGroup": 17,
+          "connectionId": 63,
+          "maneuverRaw": "20:00",
+          "maneuvers": [
+            "maneuverRightAllowed"
+          ]
+        }
+      ],
+      "centerlineMapMeters": [
+        {
+          "east": 32.49,
+          "north": 72.53
+        },
+        {
+          "east": 34.65,
+          "north": 65.63
+        },
+        {
+          "east": 47.01,
+          "north": 20.15
+        }
+      ],
+      "centerlineThreeJsMeters": [
+        {
+          "x": 32.49,
+          "y": 0,
+          "z": -72.53
+        },
+        {
+          "x": 34.65,
+          "y": 0,
+          "z": -65.63
+        },
+        {
+          "x": 47.01,
+          "y": 0,
+          "z": -20.15
+        }
+      ]
+    },
+    {
+      "laneId": 27,
+      "name": "Fahrstreifen 4 im Arm 5",
+      "direction": "EGRESS",
+      "ingressApproach": null,
+      "egressApproach": "5",
+      "widthMeters": 3.25,
+      "nodeCount": 3,
+      "objectName": "Lane_027_Fahrstreifen_4_im_Arm_5_EGRESS",
+      "arrowObjectName": "Arrow_Lane_027_EGRESS",
+      "signalGroups": [],
+      "connections": [],
+      "centerlineMapMeters": [
+        {
+          "east": 13.4,
+          "north": 65.75
+        },
+        {
+          "east": 13.92,
+          "north": 64.13
+        },
+        {
+          "east": 14.42,
+          "north": 62.75
+        }
+      ],
+      "centerlineThreeJsMeters": [
+        {
+          "x": 13.4,
+          "y": 0,
+          "z": -65.75
+        },
+        {
+          "x": 13.92,
+          "y": 0,
+          "z": -64.13
+        },
+        {
+          "x": 14.42,
+          "y": 0,
+          "z": -62.75
+        }
+      ]
+    },
+    {
+      "laneId": 28,
+      "name": "Fahrstreifen 5 im Arm 5",
+      "direction": "EGRESS",
+      "ingressApproach": null,
+      "egressApproach": "5",
+      "widthMeters": 3.25,
+      "nodeCount": 3,
+      "objectName": "Lane_028_Fahrstreifen_5_im_Arm_5_EGRESS",
+      "arrowObjectName": "Arrow_Lane_028_EGRESS",
+      "signalGroups": [],
+      "connections": [],
+      "centerlineMapMeters": [
+        {
+          "east": 10.51,
+          "north": 64.93
+        },
+        {
+          "east": 10.84,
+          "north": 63.43
+        },
+        {
+          "east": 11.38,
+          "north": 61.75
+        }
+      ],
+      "centerlineThreeJsMeters": [
+        {
+          "x": 10.51,
+          "y": 0,
+          "z": -64.93
+        },
+        {
+          "x": 10.84,
+          "y": 0,
+          "z": -63.43
+        },
+        {
+          "x": 11.38,
+          "y": 0,
+          "z": -61.75
+        }
+      ]
+    },
+    {
+      "laneId": 29,
+      "name": "Fahrstreifen 6 im Arm 5",
+      "direction": "EGRESS",
+      "ingressApproach": null,
+      "egressApproach": "5",
+      "widthMeters": 3.25,
+      "nodeCount": 3,
+      "objectName": "Lane_029_Fahrstreifen_6_im_Arm_5_EGRESS",
+      "arrowObjectName": "Arrow_Lane_029_EGRESS",
+      "signalGroups": [],
+      "connections": [],
+      "centerlineMapMeters": [
+        {
+          "east": 7.41,
+          "north": 64.06
+        },
+        {
+          "east": 8,
+          "north": 62.44
+        },
+        {
+          "east": 8.56,
+          "north": 61
+        }
+      ],
+      "centerlineThreeJsMeters": [
+        {
+          "x": 7.41,
+          "y": 0,
+          "z": -64.06
+        },
+        {
+          "x": 8,
+          "y": 0,
+          "z": -62.44
+        },
+        {
+          "x": 8.56,
+          "y": 0,
+          "z": -61
+        }
+      ]
+    },
+    {
+      "laneId": 30,
+      "name": "Fahrstreifen 1 im Arm 6",
+      "direction": "INGRESS",
+      "ingressApproach": "6",
+      "egressApproach": null,
+      "widthMeters": 3.25,
+      "nodeCount": 7,
+      "objectName": "Lane_030_Fahrstreifen_1_im_Arm_6_INGRESS",
+      "arrowObjectName": "Arrow_Lane_030_INGRESS",
+      "signalGroups": [
+        3,
+        4
+      ],
+      "connections": [
+        {
+          "targetLaneId": 34,
+          "signalGroup": 3,
+          "connectionId": 29,
+          "maneuverRaw": "20:00",
+          "maneuvers": [
+            "maneuverRightAllowed"
+          ]
+        },
+        {
+          "targetLaneId": 59,
+          "signalGroup": 3,
+          "connectionId": 30,
+          "maneuverRaw": "20:00",
+          "maneuvers": [
+            "maneuverRightAllowed"
+          ]
+        },
+        {
+          "targetLaneId": 27,
+          "signalGroup": 4,
+          "connectionId": 31,
+          "maneuverRaw": "40:00",
+          "maneuvers": [
+            "maneuverLeftAllowed"
+          ]
+        },
+        {
+          "targetLaneId": 28,
+          "signalGroup": 4,
+          "connectionId": 32,
+          "maneuverRaw": "40:00",
+          "maneuvers": [
+            "maneuverLeftAllowed"
+          ]
+        },
+        {
+          "targetLaneId": 29,
+          "signalGroup": 4,
+          "connectionId": 33,
+          "maneuverRaw": "40:00",
+          "maneuvers": [
+            "maneuverLeftAllowed"
+          ]
+        }
+      ],
+      "centerlineMapMeters": [
+        {
+          "east": 34.78,
+          "north": 97.21
+        },
+        {
+          "east": 48.42,
+          "north": 107.29
+        },
+        {
+          "east": 57.54,
+          "north": 116.53
+        },
+        {
+          "east": 67.77,
+          "north": 131.2
+        },
+        {
+          "east": 71.42,
+          "north": 138.54
+        },
+        {
+          "east": 76.73,
+          "north": 154.32
+        },
+        {
+          "east": 86.06,
+          "north": 203.32
+        }
+      ],
+      "centerlineThreeJsMeters": [
+        {
+          "x": 34.78,
+          "y": 0,
+          "z": -97.21
+        },
+        {
+          "x": 48.42,
+          "y": 0,
+          "z": -107.29
+        },
+        {
+          "x": 57.54,
+          "y": 0,
+          "z": -116.53
+        },
+        {
+          "x": 67.77,
+          "y": 0,
+          "z": -131.2
+        },
+        {
+          "x": 71.42,
+          "y": 0,
+          "z": -138.54
+        },
+        {
+          "x": 76.73,
+          "y": 0,
+          "z": -154.32
+        },
+        {
+          "x": 86.06,
+          "y": 0,
+          "z": -203.32
+        }
+      ]
+    },
+    {
+      "laneId": 31,
+      "name": "Fahrstreifen 2 im Arm 6",
+      "direction": "EGRESS",
+      "ingressApproach": null,
+      "egressApproach": "6",
+      "widthMeters": 3.25,
+      "nodeCount": 3,
+      "objectName": "Lane_031_Fahrstreifen_2_im_Arm_6_EGRESS",
+      "arrowObjectName": "Arrow_Lane_031_EGRESS",
+      "signalGroups": [],
+      "connections": [],
+      "centerlineMapMeters": [
+        {
+          "east": 39.83,
+          "north": 90.09
+        },
+        {
+          "east": 43.41,
+          "north": 93.59
+        },
+        {
+          "east": 66.72,
+          "north": 116.41
+        }
+      ],
+      "centerlineThreeJsMeters": [
+        {
+          "x": 39.83,
+          "y": 0,
+          "z": -90.09
+        },
+        {
+          "x": 43.41,
+          "y": 0,
+          "z": -93.59
+        },
+        {
+          "x": 66.72,
+          "y": 0,
+          "z": -116.41
+        }
+      ]
+    },
+    {
+      "laneId": 32,
+      "name": "Fahrstreifen 1 im Arm 7",
+      "direction": "INGRESS",
+      "ingressApproach": "7",
+      "egressApproach": null,
+      "widthMeters": 3.25,
+      "nodeCount": 7,
+      "objectName": "Lane_032_Fahrstreifen_1_im_Arm_7_INGRESS",
+      "arrowObjectName": "Arrow_Lane_032_INGRESS",
+      "signalGroups": [
+        1,
+        2
+      ],
+      "connections": [
+        {
+          "targetLaneId": 28,
+          "signalGroup": 1,
+          "connectionId": 26,
+          "maneuverRaw": "80:00",
+          "maneuvers": [
+            "maneuverStraightAllowed"
+          ]
+        },
+        {
+          "targetLaneId": 27,
+          "signalGroup": 1,
+          "connectionId": 27,
+          "maneuverRaw": "80:00",
+          "maneuvers": [
+            "maneuverStraightAllowed"
+          ]
+        },
+        {
+          "targetLaneId": 31,
+          "signalGroup": 2,
+          "connectionId": 28,
+          "maneuverRaw": "40:00",
+          "maneuvers": [
+            "maneuverLeftAllowed"
+          ]
+        }
+      ],
+      "centerlineMapMeters": [
+        {
+          "east": 1.06,
+          "north": 87.73
+        },
+        {
+          "east": -1.22,
+          "north": 93.45
+        },
+        {
+          "east": -2.26,
+          "north": 96.28
+        },
+        {
+          "east": -9.22,
+          "north": 115.23
+        },
+        {
+          "east": -18.72,
+          "north": 138.49
+        },
+        {
+          "east": -54.33,
+          "north": 208.8
+        },
+        {
+          "east": -106.13,
+          "north": 306.09
+        }
+      ],
+      "centerlineThreeJsMeters": [
+        {
+          "x": 1.06,
+          "y": 0,
+          "z": -87.73
+        },
+        {
+          "x": -1.22,
+          "y": 0,
+          "z": -93.45
+        },
+        {
+          "x": -2.26,
+          "y": 0,
+          "z": -96.28
+        },
+        {
+          "x": -9.22,
+          "y": 0,
+          "z": -115.23
+        },
+        {
+          "x": -18.72,
+          "y": 0,
+          "z": -138.49
+        },
+        {
+          "x": -54.33,
+          "y": 0,
+          "z": -208.8
+        },
+        {
+          "x": -106.13,
+          "y": 0,
+          "z": -306.09
+        }
+      ]
+    },
+    {
+      "laneId": 33,
+      "name": "Fahrstreifen 2 im Arm 7",
+      "direction": "INGRESS",
+      "ingressApproach": "7",
+      "egressApproach": null,
+      "widthMeters": 3.25,
+      "nodeCount": 3,
+      "objectName": "Lane_033_Fahrstreifen_2_im_Arm_7_INGRESS",
+      "arrowObjectName": "Arrow_Lane_033_INGRESS",
+      "signalGroups": [
+        1
+      ],
+      "connections": [
+        {
+          "targetLaneId": 29,
+          "signalGroup": 1,
+          "connectionId": 25,
+          "maneuverRaw": "80:00",
+          "maneuvers": [
+            "maneuverStraightAllowed"
+          ]
+        }
+      ],
+      "centerlineMapMeters": [
+        {
+          "east": -1.79,
+          "north": 86.13
+        },
+        {
+          "east": -3.63,
+          "north": 90.69
+        },
+        {
+          "east": -2.25,
+          "north": 96.27
+        }
+      ],
+      "centerlineThreeJsMeters": [
+        {
+          "x": -1.79,
+          "y": 0,
+          "z": -86.13
+        },
+        {
+          "x": -3.63,
+          "y": 0,
+          "z": -90.69
+        },
+        {
+          "x": -2.25,
+          "y": 0,
+          "z": -96.27
+        }
+      ]
+    },
+    {
+      "laneId": 34,
+      "name": "Fahrstreifen 3 im Arm 7",
+      "direction": "EGRESS",
+      "ingressApproach": null,
+      "egressApproach": "7",
+      "widthMeters": 3.25,
+      "nodeCount": 3,
+      "objectName": "Lane_034_Fahrstreifen_3_im_Arm_7_EGRESS",
+      "arrowObjectName": "Arrow_Lane_034_EGRESS",
+      "signalGroups": [],
+      "connections": [],
+      "centerlineMapMeters": [
+        {
+          "east": 15.98,
+          "north": 98.59
+        },
+        {
+          "east": 12.35,
+          "north": 107.81
+        },
+        {
+          "east": 3.62,
+          "north": 128.44
+        }
+      ],
+      "centerlineThreeJsMeters": [
+        {
+          "x": 15.98,
+          "y": 0,
+          "z": -98.59
+        },
+        {
+          "x": 12.35,
+          "y": 0,
+          "z": -107.81
+        },
+        {
+          "x": 3.62,
+          "y": 0,
+          "z": -128.44
+        }
+      ]
+    },
+    {
+      "laneId": 35,
+      "name": "Gehweg oder Radweg 0 im Arm 1",
+      "direction": "UNSPECIFIED",
+      "ingressApproach": null,
+      "egressApproach": null,
+      "widthMeters": 3.25,
+      "nodeCount": 2,
+      "objectName": "Lane_035_Gehweg_oder_Radweg_0_im_Arm_1_UNSPECIFIED",
+      "arrowObjectName": null,
+      "signalGroups": [
+        19,
+        20
+      ],
+      "connections": [
+        {
+          "targetLaneId": 36,
+          "signalGroup": 19,
+          "connectionId": 1,
+          "maneuverRaw": null,
+          "maneuvers": []
+        },
+        {
+          "targetLaneId": 36,
+          "signalGroup": 20,
+          "connectionId": 67,
+          "maneuverRaw": null,
+          "maneuvers": []
+        }
+      ],
+      "centerlineMapMeters": [
+        {
+          "east": 22.77,
+          "north": -26.4
+        },
+        {
+          "east": 23.54,
+          "north": -29.3
+        }
+      ],
+      "centerlineThreeJsMeters": [
+        {
+          "x": 22.77,
+          "y": 0,
+          "z": 26.4
+        },
+        {
+          "x": 23.54,
+          "y": 0,
+          "z": 29.3
+        }
+      ]
+    },
+    {
+      "laneId": 36,
+      "name": "Gehweg oder Radweg 0 im Arm 1",
+      "direction": "UNSPECIFIED",
+      "ingressApproach": null,
+      "egressApproach": null,
+      "widthMeters": 3.25,
+      "nodeCount": 2,
+      "objectName": "Lane_036_Gehweg_oder_Radweg_0_im_Arm_1_UNSPECIFIED",
+      "arrowObjectName": null,
+      "signalGroups": [
+        19,
+        20
+      ],
+      "connections": [
+        {
+          "targetLaneId": 35,
+          "signalGroup": 19,
+          "connectionId": 2,
+          "maneuverRaw": null,
+          "maneuvers": []
+        },
+        {
+          "targetLaneId": 35,
+          "signalGroup": 20,
+          "connectionId": 68,
+          "maneuverRaw": null,
+          "maneuvers": []
+        }
+      ],
+      "centerlineMapMeters": [
+        {
+          "east": 20.25,
+          "north": -16.87
+        },
+        {
+          "east": 20.08,
+          "north": -12.29
+        }
+      ],
+      "centerlineThreeJsMeters": [
+        {
+          "x": 20.25,
+          "y": 0,
+          "z": 16.87
+        },
+        {
+          "x": 20.08,
+          "y": 0,
+          "z": 12.29
+        }
+      ]
+    },
+    {
+      "laneId": 37,
+      "name": "Gehweg oder Radweg 0 im Arm 1",
+      "direction": "UNSPECIFIED",
+      "ingressApproach": null,
+      "egressApproach": null,
+      "widthMeters": 3.25,
+      "nodeCount": 2,
+      "objectName": "Lane_037_Gehweg_oder_Radweg_0_im_Arm_1_UNSPECIFIED",
+      "arrowObjectName": null,
+      "signalGroups": [
+        21,
+        22
+      ],
+      "connections": [
+        {
+          "targetLaneId": 38,
+          "signalGroup": 21,
+          "connectionId": 3,
+          "maneuverRaw": null,
+          "maneuvers": []
+        },
+        {
+          "targetLaneId": 38,
+          "signalGroup": 22,
+          "connectionId": 69,
+          "maneuverRaw": null,
+          "maneuvers": []
+        }
+      ],
+      "centerlineMapMeters": [
+        {
+          "east": 19.06,
+          "north": -9.47
+        },
+        {
+          "east": 20.09,
+          "north": -12.29
+        }
+      ],
+      "centerlineThreeJsMeters": [
+        {
+          "x": 19.06,
+          "y": 0,
+          "z": 9.47
+        },
+        {
+          "x": 20.09,
+          "y": 0,
+          "z": 12.29
+        }
+      ]
+    },
+    {
+      "laneId": 38,
+      "name": "Gehweg oder Radweg 0 im Arm 1",
+      "direction": "UNSPECIFIED",
+      "ingressApproach": null,
+      "egressApproach": null,
+      "widthMeters": 3.25,
+      "nodeCount": 2,
+      "objectName": "Lane_038_Gehweg_oder_Radweg_0_im_Arm_1_UNSPECIFIED",
+      "arrowObjectName": null,
+      "signalGroups": [
+        21,
+        22
+      ],
+      "connections": [
+        {
+          "targetLaneId": 37,
+          "signalGroup": 21,
+          "connectionId": 4,
+          "maneuverRaw": null,
+          "maneuvers": []
+        },
+        {
+          "targetLaneId": 37,
+          "signalGroup": 22,
+          "connectionId": 70,
+          "maneuverRaw": null,
+          "maneuvers": []
+        }
+      ],
+      "centerlineMapMeters": [
+        {
+          "east": 15.79,
+          "north": -0.48
+        },
+        {
+          "east": 15.2,
+          "north": 1.16
+        }
+      ],
+      "centerlineThreeJsMeters": [
+        {
+          "x": 15.79,
+          "y": 0,
+          "z": 0.48
+        },
+        {
+          "x": 15.2,
+          "y": 0,
+          "z": -1.16
+        }
+      ]
+    },
+    {
+      "laneId": 39,
+      "name": "Gehweg oder Radweg 0 im Arm 2",
+      "direction": "UNSPECIFIED",
+      "ingressApproach": null,
+      "egressApproach": null,
+      "widthMeters": 3.25,
+      "nodeCount": 2,
+      "objectName": "Lane_039_Gehweg_oder_Radweg_0_im_Arm_2_UNSPECIFIED",
+      "arrowObjectName": null,
+      "signalGroups": [
+        23,
+        24
+      ],
+      "connections": [
+        {
+          "targetLaneId": 40,
+          "signalGroup": 23,
+          "connectionId": 5,
+          "maneuverRaw": null,
+          "maneuvers": []
+        },
+        {
+          "targetLaneId": 40,
+          "signalGroup": 24,
+          "connectionId": 71,
+          "maneuverRaw": null,
+          "maneuvers": []
+        }
+      ],
+      "centerlineMapMeters": [
+        {
+          "east": 19.5,
+          "north": 7.92
+        },
+        {
+          "east": 16.66,
+          "north": 6.95
+        }
+      ],
+      "centerlineThreeJsMeters": [
+        {
+          "x": 19.5,
+          "y": 0,
+          "z": -7.92
+        },
+        {
+          "x": 16.66,
+          "y": 0,
+          "z": -6.95
+        }
+      ]
+    },
+    {
+      "laneId": 40,
+      "name": "Gehweg oder Radweg 0 im Arm 2",
+      "direction": "UNSPECIFIED",
+      "ingressApproach": null,
+      "egressApproach": null,
+      "widthMeters": 3.25,
+      "nodeCount": 2,
+      "objectName": "Lane_040_Gehweg_oder_Radweg_0_im_Arm_2_UNSPECIFIED",
+      "arrowObjectName": null,
+      "signalGroups": [
+        23,
+        24
+      ],
+      "connections": [
+        {
+          "targetLaneId": 39,
+          "signalGroup": 23,
+          "connectionId": 6,
+          "maneuverRaw": null,
+          "maneuvers": []
+        },
+        {
+          "targetLaneId": 39,
+          "signalGroup": 24,
+          "connectionId": 72,
+          "maneuverRaw": null,
+          "maneuvers": []
+        }
+      ],
+      "centerlineMapMeters": [
+        {
+          "east": 30.82,
+          "north": 11.76
+        },
+        {
+          "east": 34.97,
+          "north": 12.98
+        }
+      ],
+      "centerlineThreeJsMeters": [
+        {
+          "x": 30.82,
+          "y": 0,
+          "z": -11.76
+        },
+        {
+          "x": 34.97,
+          "y": 0,
+          "z": -12.98
+        }
+      ]
+    },
+    {
+      "laneId": 41,
+      "name": "Gehweg oder Radweg 0 im Arm 2",
+      "direction": "UNSPECIFIED",
+      "ingressApproach": null,
+      "egressApproach": null,
+      "widthMeters": 3.25,
+      "nodeCount": 2,
+      "objectName": "Lane_041_Gehweg_oder_Radweg_0_im_Arm_2_UNSPECIFIED",
+      "arrowObjectName": null,
+      "signalGroups": [
+        25,
+        26
+      ],
+      "connections": [
+        {
+          "targetLaneId": 42,
+          "signalGroup": 25,
+          "connectionId": 7,
+          "maneuverRaw": null,
+          "maneuvers": []
+        },
+        {
+          "targetLaneId": 42,
+          "signalGroup": 26,
+          "connectionId": 74,
+          "maneuverRaw": null,
+          "maneuvers": []
+        }
+      ],
+      "centerlineMapMeters": [
+        {
+          "east": 39.94,
+          "north": 13.41
+        },
+        {
+          "east": 34.72,
+          "north": 12.8
+        }
+      ],
+      "centerlineThreeJsMeters": [
+        {
+          "x": 39.94,
+          "y": 0,
+          "z": -13.41
+        },
+        {
+          "x": 34.72,
+          "y": 0,
+          "z": -12.8
+        }
+      ]
+    },
+    {
+      "laneId": 42,
+      "name": "Gehweg oder Radweg 0 im Arm 2",
+      "direction": "UNSPECIFIED",
+      "ingressApproach": null,
+      "egressApproach": null,
+      "widthMeters": 3.25,
+      "nodeCount": 2,
+      "objectName": "Lane_042_Gehweg_oder_Radweg_0_im_Arm_2_UNSPECIFIED",
+      "arrowObjectName": null,
+      "signalGroups": [
+        25,
+        26
+      ],
+      "connections": [
+        {
+          "targetLaneId": 41,
+          "signalGroup": 25,
+          "connectionId": 8,
+          "maneuverRaw": null,
+          "maneuvers": []
+        },
+        {
+          "targetLaneId": 41,
+          "signalGroup": 26,
+          "connectionId": 73,
+          "maneuverRaw": null,
+          "maneuvers": []
+        }
+      ],
+      "centerlineMapMeters": [
+        {
+          "east": 49.75,
+          "north": 14.86
+        },
+        {
+          "east": 52.72,
+          "north": 15.3
+        }
+      ],
+      "centerlineThreeJsMeters": [
+        {
+          "x": 49.75,
+          "y": 0,
+          "z": -14.86
+        },
+        {
+          "x": 52.72,
+          "y": 0,
+          "z": -15.3
+        }
+      ]
+    },
+    {
+      "laneId": 43,
+      "name": "Gehweg oder Radweg 0 im Arm 3",
+      "direction": "UNSPECIFIED",
+      "ingressApproach": null,
+      "egressApproach": null,
+      "widthMeters": 3.25,
+      "nodeCount": 2,
+      "objectName": "Lane_043_Gehweg_oder_Radweg_0_im_Arm_3_UNSPECIFIED",
+      "arrowObjectName": null,
+      "signalGroups": [
+        27,
+        28
+      ],
+      "connections": [
+        {
+          "targetLaneId": 44,
+          "signalGroup": 27,
+          "connectionId": 9,
+          "maneuverRaw": null,
+          "maneuvers": []
+        },
+        {
+          "targetLaneId": 44,
+          "signalGroup": 28,
+          "connectionId": 75,
+          "maneuverRaw": null,
+          "maneuvers": []
+        }
+      ],
+      "centerlineMapMeters": [
+        {
+          "east": 57.7,
+          "north": 10.01
+        },
+        {
+          "east": 57.3,
+          "north": 12.99
+        }
+      ],
+      "centerlineThreeJsMeters": [
+        {
+          "x": 57.7,
+          "y": 0,
+          "z": -10.01
+        },
+        {
+          "x": 57.3,
+          "y": 0,
+          "z": -12.99
+        }
+      ]
+    },
+    {
+      "laneId": 44,
+      "name": "Gehweg oder Radweg 0 im Arm 3",
+      "direction": "UNSPECIFIED",
+      "ingressApproach": null,
+      "egressApproach": null,
+      "widthMeters": 3.25,
+      "nodeCount": 2,
+      "objectName": "Lane_044_Gehweg_oder_Radweg_0_im_Arm_3_UNSPECIFIED",
+      "arrowObjectName": null,
+      "signalGroups": [
+        27,
+        28
+      ],
+      "connections": [
+        {
+          "targetLaneId": 43,
+          "signalGroup": 27,
+          "connectionId": 10,
+          "maneuverRaw": null,
+          "maneuvers": []
+        },
+        {
+          "targetLaneId": 43,
+          "signalGroup": 28,
+          "connectionId": 76,
+          "maneuverRaw": null,
+          "maneuvers": []
+        }
+      ],
+      "centerlineMapMeters": [
+        {
+          "east": 58.89,
+          "north": 1.2
+        },
+        {
+          "east": 59.86,
+          "north": -3.07
+        }
+      ],
+      "centerlineThreeJsMeters": [
+        {
+          "x": 58.89,
+          "y": 0,
+          "z": -1.2
+        },
+        {
+          "x": 59.86,
+          "y": 0,
+          "z": 3.07
+        }
+      ]
+    },
+    {
+      "laneId": 45,
+      "name": "Gehweg oder Radweg 0 im Arm 3",
+      "direction": "UNSPECIFIED",
+      "ingressApproach": null,
+      "egressApproach": null,
+      "widthMeters": 3.25,
+      "nodeCount": 2,
+      "objectName": "Lane_045_Gehweg_oder_Radweg_0_im_Arm_3_UNSPECIFIED",
+      "arrowObjectName": null,
+      "signalGroups": [
+        29,
+        30
+      ],
+      "connections": [
+        {
+          "targetLaneId": 46,
+          "signalGroup": 29,
+          "connectionId": 11,
+          "maneuverRaw": null,
+          "maneuvers": []
+        },
+        {
+          "targetLaneId": 46,
+          "signalGroup": 30,
+          "connectionId": 78,
+          "maneuverRaw": null,
+          "maneuvers": []
+        }
+      ],
+      "centerlineMapMeters": [
+        {
+          "east": 60.69,
+          "north": -7.13
+        },
+        {
+          "east": 59.86,
+          "north": -3.06
+        }
+      ],
+      "centerlineThreeJsMeters": [
+        {
+          "x": 60.69,
+          "y": 0,
+          "z": 7.13
+        },
+        {
+          "x": 59.86,
+          "y": 0,
+          "z": 3.06
+        }
+      ]
+    },
+    {
+      "laneId": 46,
+      "name": "Gehweg oder Radweg 0 im Arm 3",
+      "direction": "UNSPECIFIED",
+      "ingressApproach": null,
+      "egressApproach": null,
+      "widthMeters": 3.25,
+      "nodeCount": 2,
+      "objectName": "Lane_046_Gehweg_oder_Radweg_0_im_Arm_3_UNSPECIFIED",
+      "arrowObjectName": null,
+      "signalGroups": [
+        29,
+        30
+      ],
+      "connections": [
+        {
+          "targetLaneId": 45,
+          "signalGroup": 29,
+          "connectionId": 12,
+          "maneuverRaw": null,
+          "maneuvers": []
+        },
+        {
+          "targetLaneId": 45,
+          "signalGroup": 30,
+          "connectionId": 77,
+          "maneuverRaw": null,
+          "maneuvers": []
+        }
+      ],
+      "centerlineMapMeters": [
+        {
+          "east": 61.85,
+          "north": -16.66
+        },
+        {
+          "east": 62.21,
+          "north": -19.64
+        }
+      ],
+      "centerlineThreeJsMeters": [
+        {
+          "x": 61.85,
+          "y": 0,
+          "z": 16.66
+        },
+        {
+          "x": 62.21,
+          "y": 0,
+          "z": 19.64
+        }
+      ]
+    },
+    {
+      "laneId": 47,
+      "name": "Gehweg oder Radweg 0 im Arm 4",
+      "direction": "UNSPECIFIED",
+      "ingressApproach": null,
+      "egressApproach": null,
+      "widthMeters": 3.25,
+      "nodeCount": 2,
+      "objectName": "Lane_047_Gehweg_oder_Radweg_0_im_Arm_4_UNSPECIFIED",
+      "arrowObjectName": null,
+      "signalGroups": [
+        15,
+        31
+      ],
+      "connections": [
+        {
+          "targetLaneId": 48,
+          "signalGroup": 31,
+          "connectionId": 13,
+          "maneuverRaw": null,
+          "maneuvers": []
+        },
+        {
+          "targetLaneId": 48,
+          "signalGroup": 15,
+          "connectionId": 80,
+          "maneuverRaw": null,
+          "maneuvers": []
+        }
+      ],
+      "centerlineMapMeters": [
+        {
+          "east": 45.75,
+          "north": -25.03
+        },
+        {
+          "east": 42.3,
+          "north": -26.47
+        }
+      ],
+      "centerlineThreeJsMeters": [
+        {
+          "x": 45.75,
+          "y": 0,
+          "z": 25.03
+        },
+        {
+          "x": 42.3,
+          "y": 0,
+          "z": 26.47
+        }
+      ]
+    },
+    {
+      "laneId": 48,
+      "name": "Gehweg oder Radweg 0 im Arm 4",
+      "direction": "UNSPECIFIED",
+      "ingressApproach": null,
+      "egressApproach": null,
+      "widthMeters": 3.25,
+      "nodeCount": 2,
+      "objectName": "Lane_048_Gehweg_oder_Radweg_0_im_Arm_4_UNSPECIFIED",
+      "arrowObjectName": null,
+      "signalGroups": [
+        31,
+        32
+      ],
+      "connections": [
+        {
+          "targetLaneId": 47,
+          "signalGroup": 31,
+          "connectionId": 14,
+          "maneuverRaw": null,
+          "maneuvers": []
+        },
+        {
+          "targetLaneId": 47,
+          "signalGroup": 32,
+          "connectionId": 79,
+          "maneuverRaw": null,
+          "maneuvers": []
+        }
+      ],
+      "centerlineMapMeters": [
+        {
+          "east": 57.46,
+          "north": -23.19
+        },
+        {
+          "east": 60.43,
+          "north": -22.73
+        }
+      ],
+      "centerlineThreeJsMeters": [
+        {
+          "x": 57.46,
+          "y": 0,
+          "z": 23.19
+        },
+        {
+          "x": 60.43,
+          "y": 0,
+          "z": 22.73
+        }
+      ]
+    },
+    {
+      "laneId": 49,
+      "name": "Gehweg oder Radweg 0 im Arm 4",
+      "direction": "UNSPECIFIED",
+      "ingressApproach": null,
+      "egressApproach": null,
+      "widthMeters": 3.25,
+      "nodeCount": 2,
+      "objectName": "Lane_049_Gehweg_oder_Radweg_0_im_Arm_4_UNSPECIFIED",
+      "arrowObjectName": null,
+      "signalGroups": [
+        33,
+        34
+      ],
+      "connections": [
+        {
+          "targetLaneId": 50,
+          "signalGroup": 33,
+          "connectionId": 15,
+          "maneuverRaw": null,
+          "maneuvers": []
+        },
+        {
+          "targetLaneId": 50,
+          "signalGroup": 34,
+          "connectionId": 81,
+          "maneuverRaw": null,
+          "maneuvers": []
+        }
+      ],
+      "centerlineMapMeters": [
+        {
+          "east": 38.35,
+          "north": -27.98
+        },
+        {
+          "east": 42.31,
+          "north": -26.46
+        }
+      ],
+      "centerlineThreeJsMeters": [
+        {
+          "x": 38.35,
+          "y": 0,
+          "z": 27.98
+        },
+        {
+          "x": 42.31,
+          "y": 0,
+          "z": 26.46
+        }
+      ]
+    },
+    {
+      "laneId": 50,
+      "name": "Gehweg oder Radweg 0 im Arm 4",
+      "direction": "UNSPECIFIED",
+      "ingressApproach": null,
+      "egressApproach": null,
+      "widthMeters": 3.25,
+      "nodeCount": 2,
+      "objectName": "Lane_050_Gehweg_oder_Radweg_0_im_Arm_4_UNSPECIFIED",
+      "arrowObjectName": null,
+      "signalGroups": [
+        33,
+        34
+      ],
+      "connections": [
+        {
+          "targetLaneId": 49,
+          "signalGroup": 33,
+          "connectionId": 16,
+          "maneuverRaw": null,
+          "maneuvers": []
+        },
+        {
+          "targetLaneId": 49,
+          "signalGroup": 34,
+          "connectionId": 82,
+          "maneuverRaw": null,
+          "maneuvers": []
+        }
+      ],
+      "centerlineMapMeters": [
+        {
+          "east": 29.54,
+          "north": -31.03
+        },
+        {
+          "east": 26.7,
+          "north": -32.01
+        }
+      ],
+      "centerlineThreeJsMeters": [
+        {
+          "x": 29.54,
+          "y": 0,
+          "z": 31.03
+        },
+        {
+          "x": 26.7,
+          "y": 0,
+          "z": 32.01
+        }
+      ]
+    },
+    {
+      "laneId": 51,
+      "name": "Gehweg oder Radweg 0 im Arm 7",
+      "direction": "UNSPECIFIED",
+      "ingressApproach": null,
+      "egressApproach": null,
+      "widthMeters": 3.25,
+      "nodeCount": 2,
+      "objectName": "Lane_051_Gehweg_oder_Radweg_0_im_Arm_7_UNSPECIFIED",
+      "arrowObjectName": null,
+      "signalGroups": [
+        35,
+        36
+      ],
+      "connections": [
+        {
+          "targetLaneId": 52,
+          "signalGroup": 35,
+          "connectionId": 17,
+          "maneuverRaw": null,
+          "maneuvers": []
+        },
+        {
+          "targetLaneId": 52,
+          "signalGroup": 36,
+          "connectionId": 83,
+          "maneuverRaw": null,
+          "maneuvers": []
+        }
+      ],
+      "centerlineMapMeters": [
+        {
+          "east": -2.58,
+          "north": 80.74
+        },
+        {
+          "east": -5.17,
+          "north": 79.21
+        }
+      ],
+      "centerlineThreeJsMeters": [
+        {
+          "x": -2.58,
+          "y": 0,
+          "z": -80.74
+        },
+        {
+          "x": -5.17,
+          "y": 0,
+          "z": -79.21
+        }
+      ]
+    },
+    {
+      "laneId": 52,
+      "name": "Gehweg oder Radweg 0 im Arm 7",
+      "direction": "UNSPECIFIED",
+      "ingressApproach": null,
+      "egressApproach": null,
+      "widthMeters": 3.25,
+      "nodeCount": 2,
+      "objectName": "Lane_052_Gehweg_oder_Radweg_0_im_Arm_7_UNSPECIFIED",
+      "arrowObjectName": null,
+      "signalGroups": [
+        35,
+        36
+      ],
+      "connections": [
+        {
+          "targetLaneId": 51,
+          "signalGroup": 35,
+          "connectionId": 18,
+          "maneuverRaw": null,
+          "maneuvers": []
+        },
+        {
+          "targetLaneId": 51,
+          "signalGroup": 36,
+          "connectionId": 84,
+          "maneuverRaw": null,
+          "maneuvers": []
+        }
+      ],
+      "centerlineMapMeters": [
+        {
+          "east": 3.72,
+          "north": 84.84
+        },
+        {
+          "east": 9.75,
+          "north": 88.56
+        }
+      ],
+      "centerlineThreeJsMeters": [
+        {
+          "x": 3.72,
+          "y": 0,
+          "z": -84.84
+        },
+        {
+          "x": 9.75,
+          "y": 0,
+          "z": -88.56
+        }
+      ]
+    },
+    {
+      "laneId": 53,
+      "name": "Gehweg oder Radweg 0 im Arm 7",
+      "direction": "UNSPECIFIED",
+      "ingressApproach": null,
+      "egressApproach": null,
+      "widthMeters": 3.25,
+      "nodeCount": 2,
+      "objectName": "Lane_053_Gehweg_oder_Radweg_0_im_Arm_7_UNSPECIFIED",
+      "arrowObjectName": null,
+      "signalGroups": [
+        37,
+        38
+      ],
+      "connections": [
+        {
+          "targetLaneId": 54,
+          "signalGroup": 37,
+          "connectionId": 19,
+          "maneuverRaw": null,
+          "maneuvers": []
+        },
+        {
+          "targetLaneId": 54,
+          "signalGroup": 38,
+          "connectionId": 86,
+          "maneuverRaw": null,
+          "maneuvers": []
+        }
+      ],
+      "centerlineMapMeters": [
+        {
+          "east": 16.13,
+          "north": 93
+        },
+        {
+          "east": 9.75,
+          "north": 88.57
+        }
+      ],
+      "centerlineThreeJsMeters": [
+        {
+          "x": 16.13,
+          "y": 0,
+          "z": -93
+        },
+        {
+          "x": 9.75,
+          "y": 0,
+          "z": -88.57
+        }
+      ]
+    },
+    {
+      "laneId": 54,
+      "name": "Gehweg oder Radweg 0 im Arm 7",
+      "direction": "UNSPECIFIED",
+      "ingressApproach": null,
+      "egressApproach": null,
+      "widthMeters": 3.25,
+      "nodeCount": 2,
+      "objectName": "Lane_054_Gehweg_oder_Radweg_0_im_Arm_7_UNSPECIFIED",
+      "arrowObjectName": null,
+      "signalGroups": [
+        37,
+        38
+      ],
+      "connections": [
+        {
+          "targetLaneId": 53,
+          "signalGroup": 37,
+          "connectionId": 20,
+          "maneuverRaw": null,
+          "maneuvers": []
+        },
+        {
+          "targetLaneId": 53,
+          "signalGroup": 38,
+          "connectionId": 85,
+          "maneuverRaw": null,
+          "maneuvers": []
+        }
+      ],
+      "centerlineMapMeters": [
+        {
+          "east": 22.75,
+          "north": 99.05
+        },
+        {
+          "east": 24.96,
+          "north": 101.08
+        }
+      ],
+      "centerlineThreeJsMeters": [
+        {
+          "x": 22.75,
+          "y": 0,
+          "z": -99.05
+        },
+        {
+          "x": 24.96,
+          "y": 0,
+          "z": -101.08
+        }
+      ]
+    },
+    {
+      "laneId": 55,
+      "name": "Gehweg oder Radweg 0 im Arm 6",
+      "direction": "UNSPECIFIED",
+      "ingressApproach": null,
+      "egressApproach": null,
+      "widthMeters": 3.25,
+      "nodeCount": 2,
+      "objectName": "Lane_055_Gehweg_oder_Radweg_0_im_Arm_6_UNSPECIFIED",
+      "arrowObjectName": null,
+      "signalGroups": [
+        39,
+        40
+      ],
+      "connections": [
+        {
+          "targetLaneId": 56,
+          "signalGroup": 39,
+          "connectionId": 21,
+          "maneuverRaw": null,
+          "maneuvers": []
+        },
+        {
+          "targetLaneId": 56,
+          "signalGroup": 40,
+          "connectionId": 88,
+          "maneuverRaw": null,
+          "maneuvers": []
+        }
+      ],
+      "centerlineMapMeters": [
+        {
+          "east": 29.7,
+          "north": 98.15
+        },
+        {
+          "east": 28.42,
+          "north": 100.87
+        }
+      ],
+      "centerlineThreeJsMeters": [
+        {
+          "x": 29.7,
+          "y": 0,
+          "z": -98.15
+        },
+        {
+          "x": 28.42,
+          "y": 0,
+          "z": -100.87
+        }
+      ]
+    },
+    {
+      "laneId": 56,
+      "name": "Gehweg oder Radweg 0 im Arm 6",
+      "direction": "UNSPECIFIED",
+      "ingressApproach": null,
+      "egressApproach": null,
+      "widthMeters": 3.25,
+      "nodeCount": 2,
+      "objectName": "Lane_056_Gehweg_oder_Radweg_0_im_Arm_6_UNSPECIFIED",
+      "arrowObjectName": null,
+      "signalGroups": [
+        39,
+        40
+      ],
+      "connections": [
+        {
+          "targetLaneId": 55,
+          "signalGroup": 39,
+          "connectionId": 22,
+          "maneuverRaw": null,
+          "maneuvers": []
+        },
+        {
+          "targetLaneId": 55,
+          "signalGroup": 40,
+          "connectionId": 87,
+          "maneuverRaw": null,
+          "maneuvers": []
+        }
+      ],
+      "centerlineMapMeters": [
+        {
+          "east": 32.7,
+          "north": 91.8
+        },
+        {
+          "east": 33.42,
+          "north": 90.41
+        }
+      ],
+      "centerlineThreeJsMeters": [
+        {
+          "x": 32.7,
+          "y": 0,
+          "z": -91.8
+        },
+        {
+          "x": 33.42,
+          "y": 0,
+          "z": -90.41
+        }
+      ]
+    },
+    {
+      "laneId": 57,
+      "name": "Gehweg oder Radweg 0 im Arm 6",
+      "direction": "UNSPECIFIED",
+      "ingressApproach": null,
+      "egressApproach": null,
+      "widthMeters": 3.25,
+      "nodeCount": 2,
+      "objectName": "Lane_057_Gehweg_oder_Radweg_0_im_Arm_6_UNSPECIFIED",
+      "arrowObjectName": null,
+      "signalGroups": [
+        41,
+        42
+      ],
+      "connections": [
+        {
+          "targetLaneId": 58,
+          "signalGroup": 41,
+          "connectionId": 23,
+          "maneuverRaw": null,
+          "maneuvers": []
+        },
+        {
+          "targetLaneId": 58,
+          "signalGroup": 42,
+          "connectionId": 90,
+          "maneuverRaw": null,
+          "maneuvers": []
+        }
+      ],
+      "centerlineMapMeters": [
+        {
+          "east": 34.4,
+          "north": 88.52
+        },
+        {
+          "east": 33.43,
+          "north": 90.41
+        }
+      ],
+      "centerlineThreeJsMeters": [
+        {
+          "x": 34.4,
+          "y": 0,
+          "z": -88.52
+        },
+        {
+          "x": 33.43,
+          "y": 0,
+          "z": -90.41
+        }
+      ]
+    },
+    {
+      "laneId": 58,
+      "name": "Gehweg oder Radweg 0 im Arm 6",
+      "direction": "UNSPECIFIED",
+      "ingressApproach": null,
+      "egressApproach": null,
+      "widthMeters": 3.25,
+      "nodeCount": 2,
+      "objectName": "Lane_058_Gehweg_oder_Radweg_0_im_Arm_6_UNSPECIFIED",
+      "arrowObjectName": null,
+      "signalGroups": [
+        41,
+        42
+      ],
+      "connections": [
+        {
+          "targetLaneId": 57,
+          "signalGroup": 41,
+          "connectionId": 24,
+          "maneuverRaw": null,
+          "maneuvers": []
+        },
+        {
+          "targetLaneId": 57,
+          "signalGroup": 42,
+          "connectionId": 89,
+          "maneuverRaw": null,
+          "maneuvers": []
+        }
+      ],
+      "centerlineMapMeters": [
+        {
+          "east": 37.46,
+          "north": 82.28
+        },
+        {
+          "east": 38.97,
+          "north": 80.59
+        }
+      ],
+      "centerlineThreeJsMeters": [
+        {
+          "x": 37.46,
+          "y": 0,
+          "z": -82.28
+        },
+        {
+          "x": 38.97,
+          "y": 0,
+          "z": -80.59
+        }
+      ]
+    },
+    {
+      "laneId": 59,
+      "name": "Fahrstreifen 4 im Arm 7",
+      "direction": "EGRESS",
+      "ingressApproach": null,
+      "egressApproach": "7",
+      "widthMeters": 3.25,
+      "nodeCount": 3,
+      "objectName": "Lane_059_Fahrstreifen_4_im_Arm_7_EGRESS",
+      "arrowObjectName": "Arrow_Lane_059_EGRESS",
+      "signalGroups": [],
+      "connections": [],
+      "centerlineMapMeters": [
+        {
+          "east": 19.03,
+          "north": 100.65
+        },
+        {
+          "east": 17.32,
+          "north": 105.35
+        },
+        {
+          "east": 7.44,
+          "north": 132.54
+        }
+      ],
+      "centerlineThreeJsMeters": [
+        {
+          "x": 19.03,
+          "y": 0,
+          "z": -100.65
+        },
+        {
+          "x": 17.32,
+          "y": 0,
+          "z": -105.35
+        },
+        {
+          "x": 7.44,
+          "y": 0,
+          "z": -132.54
+        }
+      ]
+    }
+  ]
+}

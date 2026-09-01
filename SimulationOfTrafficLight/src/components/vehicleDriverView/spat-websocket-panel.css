@@ -1,0 +1,628 @@
+/* =====================================================
+   FLOATING PANEL
+   ===================================================== */
+
+.spat-ws-panel {
+
+    position:
+        absolute;
+
+    z-index:
+        10000;
+
+    width:
+        340px;
+
+    max-height:
+        calc(100% - 24px);
+
+    box-sizing:
+        border-box;
+
+    display:
+        flex;
+
+    flex-direction:
+        column;
+
+    overflow:
+        hidden;
+
+    color:
+        #e2e8f0;
+
+    background:
+        rgba(
+            15,
+            23,
+            42,
+            0.95
+        );
+
+    border:
+        1px solid
+        rgba(
+            255,
+            255,
+            255,
+            0.16
+        );
+
+    border-radius:
+        10px;
+
+    box-shadow:
+        0 8px 30px
+        rgba(
+            0,
+            0,
+            0,
+            0.35
+        );
+
+    backdrop-filter:
+        blur(8px);
+
+    pointer-events:
+        auto;
+
+    user-select:
+        none;
+}
+
+
+/* =====================================================
+   HEADER
+   ===================================================== */
+
+.spat-ws-panel__header {
+
+    flex:
+        0 0 36px;
+
+    height:
+        36px;
+
+    display:
+        flex;
+
+    align-items:
+        center;
+
+    justify-content:
+        space-between;
+
+    padding:
+        0 10px;
+
+    box-sizing:
+        border-box;
+
+    background:
+        rgba(
+            15,
+            23,
+            42,
+            0.98
+        );
+
+    border-bottom:
+        1px solid
+        rgba(
+            255,
+            255,
+            255,
+            0.10
+        );
+
+    cursor:
+        move;
+
+    touch-action:
+        none;
+}
+
+
+.spat-ws-panel__title {
+
+    font-family:
+        Inter,
+        Arial,
+        sans-serif;
+
+    font-size:
+        12px;
+
+    font-weight:
+        600;
+}
+
+
+/* =====================================================
+   STATUS
+   ===================================================== */
+
+.spat-ws-panel__status {
+
+    padding:
+        3px 7px;
+
+    border-radius:
+        10px;
+
+    font-family:
+        monospace;
+
+    font-size:
+        9px;
+
+    text-transform:
+        uppercase;
+}
+
+
+.spat-ws-panel__status--disconnected {
+
+    color:
+        #cbd5e1;
+
+    background:
+        rgba(
+            148,
+            163,
+            184,
+            0.18
+        );
+}
+
+
+.spat-ws-panel__status--connecting {
+
+    color:
+        #fde68a;
+
+    background:
+        rgba(
+            245,
+            158,
+            11,
+            0.18
+        );
+}
+
+
+.spat-ws-panel__status--connected {
+
+    color:
+        #86efac;
+
+    background:
+        rgba(
+            34,
+            197,
+            94,
+            0.18
+        );
+}
+
+
+.spat-ws-panel__status--error {
+
+    color:
+        #fca5a5;
+
+    background:
+        rgba(
+            239,
+            68,
+            68,
+            0.18
+        );
+}
+
+
+/* =====================================================
+   BODY
+   ===================================================== */
+
+.spat-ws-panel__body {
+
+    flex:
+        1 1 auto;
+
+    min-height:
+        0;
+
+    padding:
+        10px;
+
+    box-sizing:
+        border-box;
+
+    overflow-y:
+        auto;
+
+    user-select:
+        text;
+}
+
+
+/* =====================================================
+   LABEL
+   ===================================================== */
+
+.spat-ws-panel__label {
+
+    display:
+        block;
+
+    margin-bottom:
+        4px;
+
+    color:
+        #94a3b8;
+
+    font-family:
+        Inter,
+        Arial,
+        sans-serif;
+
+    font-size:
+        10px;
+}
+
+
+/* =====================================================
+   INPUT
+   ===================================================== */
+
+.spat-ws-panel__input {
+
+    width:
+        100%;
+
+    height:
+        30px;
+
+    box-sizing:
+        border-box;
+
+    padding:
+        0 8px;
+
+    color:
+        #e2e8f0;
+
+    background:
+        rgba(
+            2,
+            6,
+            23,
+            0.65
+        );
+
+    border:
+        1px solid
+        rgba(
+            255,
+            255,
+            255,
+            0.14
+        );
+
+    border-radius:
+        5px;
+
+    outline:
+        none;
+
+    font-family:
+        monospace;
+
+    font-size:
+        11px;
+
+    user-select:
+        text;
+}
+
+
+.spat-ws-panel__input:focus {
+
+    border-color:
+        rgba(
+            56,
+            189,
+            248,
+            0.7
+        );
+}
+
+
+.spat-ws-panel__input:disabled {
+
+    opacity:
+        0.65;
+}
+
+
+/* =====================================================
+   ACTIONS
+   ===================================================== */
+
+.spat-ws-panel__actions {
+
+    display:
+        flex;
+
+    gap:
+        6px;
+
+    margin-top:
+        8px;
+}
+
+
+.spat-ws-panel__button {
+
+    height:
+        28px;
+
+    padding:
+        0 12px;
+
+    color:
+        #ffffff;
+
+    background:
+        #0284c7;
+
+    border:
+        none;
+
+    border-radius:
+        5px;
+
+    cursor:
+        pointer;
+
+    font-family:
+        Inter,
+        Arial,
+        sans-serif;
+
+    font-size:
+        10px;
+}
+
+
+.spat-ws-panel__button:hover:not(:disabled) {
+
+    background:
+        #0369a1;
+}
+
+
+.spat-ws-panel__button--secondary {
+
+    color:
+        #e2e8f0;
+
+    background:
+        rgba(
+            255,
+            255,
+            255,
+            0.08
+        );
+
+    border:
+        1px solid
+        rgba(
+            255,
+            255,
+            255,
+            0.12
+        );
+}
+
+
+.spat-ws-panel__button--secondary:hover:not(:disabled) {
+
+    background:
+        rgba(
+            255,
+            255,
+            255,
+            0.15
+        );
+}
+
+
+.spat-ws-panel__button:disabled {
+
+    opacity:
+        0.4;
+
+    cursor:
+        default;
+}
+
+
+/* =====================================================
+   ERROR
+   ===================================================== */
+
+.spat-ws-panel__error {
+
+    margin-top:
+        8px;
+
+    padding:
+        6px 8px;
+
+    color:
+        #fecaca;
+
+    background:
+        rgba(
+            127,
+            29,
+            29,
+            0.35
+        );
+
+    border-radius:
+        5px;
+
+    font-family:
+        monospace;
+
+    font-size:
+        10px;
+}
+
+
+/* =====================================================
+   SECTION
+   ===================================================== */
+
+.spat-ws-panel__section {
+
+    margin-top:
+        12px;
+
+    padding-top:
+        8px;
+
+    border-top:
+        1px solid
+        rgba(
+            255,
+            255,
+            255,
+            0.08
+        );
+}
+
+
+.spat-ws-panel__section-title {
+
+    margin-bottom:
+        6px;
+
+    color:
+        #f8fafc;
+
+    font-family:
+        Inter,
+        Arial,
+        sans-serif;
+
+    font-size:
+        10px;
+
+    font-weight:
+        600;
+
+    text-transform:
+        uppercase;
+}
+
+
+/* =====================================================
+   INFO
+   ===================================================== */
+
+.spat-ws-panel__info-row {
+
+    display:
+        flex;
+
+    align-items:
+        center;
+
+    justify-content:
+        space-between;
+
+    gap:
+        12px;
+
+    min-height:
+        20px;
+
+    font-family:
+        monospace;
+
+    font-size:
+        10px;
+}
+
+
+.spat-ws-panel__info-label {
+
+    color:
+        #94a3b8;
+}
+
+
+.spat-ws-panel__info-value {
+
+    color:
+        #e2e8f0;
+
+    text-align:
+        right;
+}
+
+
+/* =====================================================
+   JSON PREVIEW
+   ===================================================== */
+
+.spat-ws-panel__preview {
+
+    max-height:
+        180px;
+
+    margin:
+        0;
+
+    padding:
+        8px;
+
+    box-sizing:
+        border-box;
+
+    overflow:
+        auto;
+
+    white-space:
+        pre;
+
+    color:
+        #cbd5e1;
+
+    background:
+        rgba(
+            2,
+            6,
+            23,
+            0.65
+        );
+
+    border-radius:
+        5px;
+
+    font-family:
+        monospace;
+
+    font-size:
+        9px;
+
+    line-height:
+        1.35;
+
+    user-select:
+        text;
+}

@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-282.11 -316.09 597.27 438.6" width="1200" height="881">
+  <title>ITS MAP intersection</title>
+  <desc>59 lanes; X east, Y negative north; units metres</desc>
+  <metadata>{&quot;units&quot;:&quot;meters&quot;,&quot;coordinateSystem&quot;:&quot;SVG_LOCAL_ENU&quot;,&quot;axes&quot;:{&quot;x&quot;:&quot;east&quot;,&quot;y&quot;:&quot;negative north&quot;},&quot;referencePointWgs84&quot;:{&quot;latitude&quot;:52.5000634,&quot;longitude&quot;:13.3064561},&quot;referencePointSvg&quot;:{&quot;x&quot;:0,&quot;y&quot;:0},&quot;laneCount&quot;:59}</metadata>
+  <style>
+    .lane-path { fill:none; stroke:#3977d5; stroke-linecap:butt; stroke-linejoin:round; opacity:.62; }
+    .lane.unspecified .lane-path { stroke:#dc8a28; stroke-dasharray:2 1.3; }
+    .lane:hover .lane-path { stroke:#d52f35; opacity:.9; }
+    .direction-arrow { fill:#fff; stroke:#172033; stroke-width:.12; vector-effect:non-scaling-stroke; }
+    .ref-marker { fill:#e11d48; stroke:#fff; stroke-width:.18; vector-effect:non-scaling-stroke; }
+    .ref-cross { stroke:#e11d48; stroke-width:.28; vector-effect:non-scaling-stroke; }
+  </style>
+  <g id="lanes">
+    <g id="lane-001-Fahrstreifen_1_im_Arm_1-ingress" class="lane ingress" data-lane-id="1" data-direction="INGRESS" data-width-meters="3.25">
+      <title>Lane 1: Fahrstreifen 1 im Arm 1; INGRESS; width 3.25 m</title>
+      <polyline class="lane-path" points="15.6,20.38 12.84,21.19 -36.49,36.3 -272.11,109.47" stroke-width="3.25"/>
+      <polygon class="direction-arrow" points="-131.4861,65.4778 -127.6374,64.2826 -127.8722,63.5262 -125.1871,63.8442 -127.2198,65.6273 -127.4547,64.8709 -131.3034,66.0661"/>
+    </g>
+    <g id="lane-002-Fahrstreifen_2_im_Arm_1-ingress" class="lane ingress" data-lane-id="2" data-direction="INGRESS" data-width-meters="3.25">
+      <title>Lane 2: Fahrstreifen 2 im Arm 1; INGRESS; width 3.25 m</title>
+      <polyline class="lane-path" points="16.44,23.32 13.68,24.13 -271,112.51" stroke-width="3.25"/>
+      <polygon class="direction-arrow" points="-130.4817,68.563 -126.6329,67.3682 -126.8677,66.6118 -124.1826,66.93 -126.2154,68.7129 -126.4502,67.9565 -130.299,69.1513"/>
+    </g>
+    <g id="lane-003-Fahrstreifen_3_im_Arm_1-ingress" class="lane ingress" data-lane-id="3" data-direction="INGRESS" data-width-meters="3.25">
+      <title>Lane 3: Fahrstreifen 3 im Arm 1; INGRESS; width 3.25 m</title>
+      <polyline class="lane-path" points="17.36,26 14.6,26.81 -21.7,37.66 -36.51,36.22" stroke-width="3.25"/>
+      <polygon class="direction-arrow" points="-12.5024,34.5894 -8.6412,33.4353 -8.868,32.6765 -6.1865,33.023 -8.238,34.7843 -8.4648,34.0255 -12.326,35.1796"/>
+    </g>
+    <g id="lane-004-Fahrstreifen_1_im_Arm_2-ingress" class="lane ingress" data-lane-id="4" data-direction="INGRESS" data-width-meters="3.25">
+      <title>Lane 4: Fahrstreifen 1 im Arm 2; INGRESS; width 3.25 m</title>
+      <polyline class="lane-path" points="28.44,-15.65 26.97,-21.04 14.42,-62.74" stroke-width="3.25"/>
+      <polygon class="direction-arrow" points="20.8584,-42.416 22.0198,-38.5569 22.7782,-38.7852 22.4367,-36.103 20.6715,-38.1512 21.4299,-38.3794 20.2685,-42.2384"/>
+    </g>
+    <g id="lane-005-Fahrstreifen_2_im_Arm_2-ingress" class="lane ingress" data-lane-id="5" data-direction="INGRESS" data-width-meters="3.25">
+      <title>Lane 5: Fahrstreifen 2 im Arm 2; INGRESS; width 3.25 m</title>
+      <polyline class="lane-path" points="25.59,-14.82 24.14,-19.61 11.38,-61.75" stroke-width="3.25"/>
+      <polygon class="direction-arrow" points="17.8381,-41.4848 19.006,-37.6278 19.764,-37.8573 19.4271,-35.1745 17.6584,-37.2197 18.4165,-37.4493 17.2485,-41.3063"/>
+    </g>
+    <g id="lane-006-Fahrstreifen_3_im_Arm_2-ingress" class="lane ingress" data-lane-id="6" data-direction="INGRESS" data-width-meters="3.25">
+      <title>Lane 6: Fahrstreifen 3 im Arm 2; INGRESS; width 3.25 m</title>
+      <polyline class="lane-path" points="22.57,-13.91 21.12,-18.7 8.56,-61.01" stroke-width="3.25"/>
+      <polygon class="direction-arrow" points="14.9225,-40.6594 16.0694,-36.796 16.8286,-37.0214 16.477,-34.3405 14.7196,-36.3953 15.4788,-36.6207 14.332,-40.4841"/>
+    </g>
+    <g id="lane-007-Fahrstreifen_4_im_Arm_2-egress" class="lane egress" data-lane-id="7" data-direction="EGRESS" data-width-meters="3.25">
+      <title>Lane 7: Fahrstreifen 4 im Arm 2; EGRESS; width 3.25 m</title>
+      <polyline class="lane-path" points="40.64,-16.7 40.29,-18.51 40.62,-18.53" stroke-width="3.25"/>
+      <polygon class="direction-arrow" points="40.7482,-14.5179 39.9831,-18.4746 39.2055,-18.3243 39.8166,-20.9582 41.3655,-18.7419 40.5879,-18.5916 41.353,-14.6349"/>
+    </g>
+    <g id="lane-008-Fahrstreifen_5_im_Arm_2-egress" class="lane egress" data-lane-id="8" data-direction="EGRESS" data-width-meters="3.25">
+      <title>Lane 8: Fahrstreifen 5 im Arm 2; EGRESS; width 3.25 m</title>
+      <polyline class="lane-path" points="43.78,-17.18 43.57,-18.59 43.93,-19.41" stroke-width="3.25"/>
+      <polygon class="direction-arrow" points="43.7832,-15.068 43.1895,-19.054 42.4061,-18.9373 43.1303,-21.5424 44.5821,-19.2614 43.7988,-19.1447 44.3924,-15.1587"/>
+    </g>
+    <g id="lane-009-Fahrstreifen_6_im_Arm_2-egress" class="lane egress" data-lane-id="9" data-direction="EGRESS" data-width-meters="3.25">
+      <title>Lane 9: Fahrstreifen 6 im Arm 2; EGRESS; width 3.25 m</title>
+      <polyline class="lane-path" points="47.55,-17.59 47.14,-19.2 47.01,-20.08" stroke-width="3.25"/>
+      <polygon class="direction-arrow" points="47.7388,-15.6005 46.7443,-19.5059 45.9768,-19.3104 46.4332,-21.9755 48.1087,-19.8534 47.3412,-19.6579 48.3358,-15.7525"/>
+    </g>
+    <g id="lane-010-Fahrstreifen_4_im_Arm_1-egress" class="lane egress" data-lane-id="10" data-direction="EGRESS" data-width-meters="3.25">
+      <title>Lane 10: Fahrstreifen 4 im Arm 1; EGRESS; width 3.25 m</title>
+      <polyline class="lane-path" points="14.21,9.67 8.44,11.36 4.29,12.45" stroke-width="3.25"/>
+      <polygon class="direction-arrow" points="12.4717,10.5001 8.6041,11.6329 8.8268,12.3929 6.1471,12.0316 8.2084,10.2816 8.431,11.0417 12.2985,9.9089"/>
+    </g>
+    <g id="lane-011-Fahrstreifen_5_im_Arm_1-egress" class="lane egress" data-lane-id="11" data-direction="EGRESS" data-width-meters="3.25">
+      <title>Lane 11: Fahrstreifen 5 im Arm 1; EGRESS; width 3.25 m</title>
+      <polyline class="lane-path" points="12.6,6.77 9.92,7.61 3.32,9.64" stroke-width="3.25"/>
+      <polygon class="direction-arrow" points="11.1592,7.5511 7.3072,8.7359 7.5401,9.4929 4.8558,9.1676 6.8933,7.3901 7.1261,8.1471 10.9781,6.9623"/>
+    </g>
+    <g id="lane-012-Fahrstreifen_6_im_Arm_1-egress" class="lane egress" data-lane-id="12" data-direction="EGRESS" data-width-meters="3.25">
+      <title>Lane 12: Fahrstreifen 6 im Arm 1; EGRESS; width 3.25 m</title>
+      <polyline class="lane-path" points="11.82,3.89 7.02,5.3 2.3,6.5" stroke-width="3.25"/>
+      <polygon class="direction-arrow" points="10.2887,4.6608 6.4221,5.7967 6.6453,6.5565 3.9654,6.1973 6.0252,4.4457 6.2485,5.2056 10.1151,4.0698"/>
+    </g>
+    <g id="lane-013-Fahrstreifen_1_im_Arm_3-ingress" class="lane ingress" data-lane-id="13" data-direction="INGRESS" data-width-meters="3.25">
+      <title>Lane 13: Fahrstreifen 1 im Arm 3; INGRESS; width 3.25 m</title>
+      <polyline class="lane-path" points="64.1,-3.57 69.05,-4.34 131.32,-15.04 305.16,-44.8" stroke-width="3.25"/>
+      <polygon class="direction-arrow" points="187.8882,-24.4115 183.916,-23.7315 184.0496,-22.9509 181.4294,-23.6183 183.6784,-25.1193 183.812,-24.3387 187.7843,-25.0187"/>
+    </g>
+    <g id="lane-014-Fahrstreifen_2_im_Arm_3-ingress" class="lane ingress" data-lane-id="14" data-direction="INGRESS" data-width-meters="3.25">
+      <title>Lane 14: Fahrstreifen 2 im Arm 3; INGRESS; width 3.25 m</title>
+      <polyline class="lane-path" points="63.54,-6.75 68.49,-7.52 304.78,-48.01" stroke-width="3.25"/>
+      <polygon class="direction-arrow" points="187.4215,-27.5873 183.4494,-26.9066 183.5832,-26.126 180.9629,-26.793 183.2116,-28.2944 183.3454,-27.5138 187.3175,-28.1944"/>
+    </g>
+    <g id="lane-015-Fahrstreifen_3_im_Arm_3-ingress" class="lane ingress" data-lane-id="15" data-direction="INGRESS" data-width-meters="3.25">
+      <title>Lane 15: Fahrstreifen 3 im Arm 3; INGRESS; width 3.25 m</title>
+      <polyline class="lane-path" points="63.13,-9.64 68.08,-10.41 119.43,-19.09 131.33,-15.04" stroke-width="3.25"/>
+      <polygon class="direction-arrow" points="100.7384,-15.6181 96.7648,-14.9464 96.8968,-14.1655 94.278,-14.8384 96.5301,-16.3347 96.6621,-15.5538 100.6357,-16.2255"/>
+    </g>
+    <g id="lane-016-Fahrstreifen_4_im_Arm_3-egress" class="lane egress" data-lane-id="16" data-direction="EGRESS" data-width-meters="3.25">
+      <title>Lane 16: Fahrstreifen 4 im Arm 3; EGRESS; width 3.25 m</title>
+      <polyline class="lane-path" points="65.73,7.73 70.68,6.96 84.8,4.85" stroke-width="3.25"/>
+      <polygon class="direction-arrow" points="72.0029,6.4509 75.9887,5.8553 75.8716,5.072 78.4771,5.7949 76.1967,7.2478 76.0797,6.4645 72.094,7.0601"/>
+    </g>
+    <g id="lane-017-Fahrstreifen_5_im_Arm_3-egress" class="lane egress" data-lane-id="17" data-direction="EGRESS" data-width-meters="3.25">
+      <title>Lane 17: Fahrstreifen 5 im Arm 3; EGRESS; width 3.25 m</title>
+      <polyline class="lane-path" points="66.39,12.4 70.94,11.64 85.41,9.54" stroke-width="3.25"/>
+      <polygon class="direction-arrow" points="72.6319,11.0832 76.6201,10.5044 76.5063,9.7206 79.1087,10.4545 76.8223,11.8978 76.7085,11.1141 72.7203,11.6929"/>
+    </g>
+    <g id="lane-018-Fahrstreifen_1_im_Arm_4-ingress" class="lane ingress" data-lane-id="18" data-direction="INGRESS" data-width-meters="3.25">
+      <title>Lane 18: Fahrstreifen 1 im Arm 4; INGRESS; width 3.25 m</title>
+      <polyline class="lane-path" points="47.92,29.38 48.56,34.34 56.74,102.33" stroke-width="3.25"/>
+      <polygon class="direction-arrow" points="52.4337,69.1159 51.9523,65.1147 51.166,65.2093 51.9631,62.6256 53.3503,64.9465 52.5639,65.0411 53.0453,69.0423"/>
+    </g>
+    <g id="lane-019-Fahrstreifen_2_im_Arm_4-ingress" class="lane ingress" data-lane-id="19" data-direction="INGRESS" data-width-meters="3.25">
+      <title>Lane 19: Fahrstreifen 2 im Arm 4; INGRESS; width 3.25 m</title>
+      <polyline class="lane-path" points="51.07,28.89 51.71,33.85 57.84,84.82 60.39,99.73 60.8,102.12" stroke-width="3.25"/>
+      <polygon class="direction-arrow" points="55.6066,68.8288 55.1254,64.8276 54.339,64.9222 55.1362,62.3385 56.5233,64.6595 55.737,64.754 56.2182,68.7552"/>
+    </g>
+    <g id="lane-020-Fahrstreifen_3_im_Arm_4-ingress" class="lane ingress" data-lane-id="20" data-direction="INGRESS" data-width-meters="3.25">
+      <title>Lane 20: Fahrstreifen 3 im Arm 4; INGRESS; width 3.25 m</title>
+      <polyline class="lane-path" points="54.11,28.34 54.75,33.3 60.74,79.46 60.46,99.72" stroke-width="3.25"/>
+      <polygon class="direction-arrow" points="58.8397,67.2096 58.3211,63.2131 57.5357,63.315 58.3087,60.724 59.7174,63.0319 58.932,63.1338 59.4506,67.1303"/>
+    </g>
+    <g id="lane-021-Fahrstreifen_4_im_Arm_4-egress" class="lane egress" data-lane-id="21" data-direction="EGRESS" data-width-meters="3.25">
+      <title>Lane 21: Fahrstreifen 4 im Arm 4; EGRESS; width 3.25 m</title>
+      <polyline class="lane-path" points="37.66,33.01 38.48,38.08 39.06,41.5" stroke-width="3.25"/>
+      <polygon class="direction-arrow" points="38.1321,33.9997 38.7755,37.978 39.5573,37.8515 38.8658,40.4655 37.3856,38.2028 38.1674,38.0763 37.524,34.098"/>
+    </g>
+    <g id="lane-022-Fahrstreifen_5_im_Arm_4-egress" class="lane egress" data-lane-id="22" data-direction="EGRESS" data-width-meters="3.25">
+      <title>Lane 22: Fahrstreifen 5 im Arm 4; EGRESS; width 3.25 m</title>
+      <polyline class="lane-path" points="35.7,33.54 36.34,38.5 36.49,41.78" stroke-width="3.25"/>
+      <polygon class="direction-arrow" points="36.1197,34.3855 36.6354,38.3824 37.4209,38.281 36.646,40.8715 35.239,38.5626 36.0244,38.4612 35.5087,34.4644"/>
+    </g>
+    <g id="lane-023-Fahrstreifen_6_im_Arm_4-egress" class="lane egress" data-lane-id="23" data-direction="EGRESS" data-width-meters="3.25">
+      <title>Lane 23: Fahrstreifen 6 im Arm 4; EGRESS; width 3.25 m</title>
+      <polyline class="lane-path" points="32.24,33.99 33.17,38.95 33.62,41.71" stroke-width="3.25"/>
+      <polygon class="direction-arrow" points="32.6665,34.5932 33.4091,38.5542 34.1876,38.4082 33.5616,41.0386 32.0253,38.8136 32.8037,38.6677 32.061,34.7067"/>
+    </g>
+    <g id="lane-024-Fahrstreifen_1_im_Arm_5-ingress" class="lane ingress" data-lane-id="24" data-direction="INGRESS" data-width-meters="3.25">
+      <title>Lane 24: Fahrstreifen 1 im Arm 5; INGRESS; width 3.25 m</title>
+      <polyline class="lane-path" points="25.99,-69.73 27.66,-64.55 40.63,-18.54" stroke-width="3.25"/>
+      <polygon class="direction-arrow" points="33.992,-40.9525 32.8986,-44.8314 32.1363,-44.6165 32.5249,-47.2923 34.2538,-45.2134 33.4915,-44.9985 34.5849,-41.1197"/>
+    </g>
+    <g id="lane-025-Fahrstreifen_2_im_Arm_5-ingress" class="lane ingress" data-lane-id="25" data-direction="INGRESS" data-width-meters="3.25">
+      <title>Lane 25: Fahrstreifen 2 im Arm 5; INGRESS; width 3.25 m</title>
+      <polyline class="lane-path" points="29.31,-71.17 31.18,-65.37 43.93,-19.41" stroke-width="3.25"/>
+      <polygon class="direction-arrow" points="37.3125,-42.1121 36.2352,-45.9954 35.472,-45.7837 35.8717,-48.4578 37.5919,-46.3718 36.8288,-46.1601 37.9061,-42.2767"/>
+    </g>
+    <g id="lane-026-Fahrstreifen_3_im_Arm_5-ingress" class="lane ingress" data-lane-id="26" data-direction="INGRESS" data-width-meters="3.25">
+      <title>Lane 26: Fahrstreifen 3 im Arm 5; INGRESS; width 3.25 m</title>
+      <polyline class="lane-path" points="32.49,-72.53 34.65,-65.63 47.01,-20.15" stroke-width="3.25"/>
+      <polygon class="direction-arrow" points="40.437,-43.1615 39.3801,-47.0505 38.6159,-46.8428 39.0296,-49.5148 40.7389,-47.4197 39.9746,-47.212 41.0315,-43.3231"/>
+    </g>
+    <g id="lane-027-Fahrstreifen_4_im_Arm_5-egress" class="lane egress" data-lane-id="27" data-direction="EGRESS" data-width-meters="3.25">
+      <title>Lane 27: Fahrstreifen 4 im Arm 5; EGRESS; width 3.25 m</title>
+      <polyline class="lane-path" points="13.4,-65.75 13.92,-64.13 14.42,-62.75" stroke-width="3.25"/>
+      <polygon class="direction-arrow" points="13.1843,-67.4298 14.416,-63.5927 15.1701,-63.8347 14.8776,-61.1467 13.0753,-63.1624 13.8294,-63.4044 12.5977,-67.2416"/>
+    </g>
+    <g id="lane-028-Fahrstreifen_5_im_Arm_5-egress" class="lane egress" data-lane-id="28" data-direction="EGRESS" data-width-meters="3.25">
+      <title>Lane 28: Fahrstreifen 5 im Arm 5; EGRESS; width 3.25 m</title>
+      <polyline class="lane-path" points="10.51,-64.93 10.84,-63.43 11.38,-61.75" stroke-width="3.25"/>
+      <polygon class="direction-arrow" points="10.1737,-66.5094 11.4069,-62.6728 12.1609,-62.9151 11.8695,-60.227 10.0665,-62.2419 10.8205,-62.4843 9.5873,-66.3209"/>
+    </g>
+    <g id="lane-029-Fahrstreifen_6_im_Arm_5-egress" class="lane egress" data-lane-id="29" data-direction="EGRESS" data-width-meters="3.25">
+      <title>Lane 29: Fahrstreifen 6 im Arm 5; EGRESS; width 3.25 m</title>
+      <polyline class="lane-path" points="7.41,-64.06 8,-62.44 8.56,-61" stroke-width="3.25"/>
+      <polygon class="direction-arrow" points="7.1466,-65.6833 8.5257,-61.8966 9.2699,-62.1676 9.0815,-59.4703 7.2027,-61.4148 7.9469,-61.6858 6.5678,-65.4725"/>
+    </g>
+    <g id="lane-030-Fahrstreifen_1_im_Arm_6-ingress" class="lane ingress" data-lane-id="30" data-direction="INGRESS" data-width-meters="3.25">
+      <title>Lane 30: Fahrstreifen 1 im Arm 6; INGRESS; width 3.25 m</title>
+      <polyline class="lane-path" points="34.78,-97.21 48.42,-107.29 57.54,-116.53 67.77,-131.2 71.42,-138.54 76.73,-154.32 86.06,-203.32" stroke-width="3.25"/>
+      <polygon class="direction-arrow" points="74.4235,-146.5 73.1382,-142.6805 73.8889,-142.4279 72.0586,-140.4377 71.8038,-143.1295 72.5544,-142.8769 73.8397,-146.6965"/>
+    </g>
+    <g id="lane-031-Fahrstreifen_2_im_Arm_6-egress" class="lane egress" data-lane-id="31" data-direction="EGRESS" data-width-meters="3.25">
+      <title>Lane 31: Fahrstreifen 2 im Arm 6; EGRESS; width 3.25 m</title>
+      <polyline class="lane-path" points="39.83,-90.09 43.41,-93.59 66.72,-116.41" stroke-width="3.25"/>
+      <polygon class="direction-arrow" points="50.7383,-101.1953 53.6181,-104.0145 53.064,-104.5805 55.5986,-105.5223 54.6031,-103.0084 54.049,-103.5744 51.1693,-100.7551"/>
+    </g>
+    <g id="lane-032-Fahrstreifen_1_im_Arm_7-ingress" class="lane ingress" data-lane-id="32" data-direction="INGRESS" data-width-meters="3.25">
+      <title>Lane 32: Fahrstreifen 1 im Arm 7; INGRESS; width 3.25 m</title>
+      <polyline class="lane-path" points="1.06,-87.73 -1.22,-93.45 -2.26,-96.28 -9.22,-115.23 -18.72,-138.49 -54.33,-208.8 -106.13,-306.09" stroke-width="3.25"/>
+      <polygon class="direction-arrow" points="-50.3099,-201.5442 -48.4891,-197.9491 -47.7825,-198.3069 -47.6478,-195.6064 -49.7451,-197.3129 -49.0386,-197.6707 -50.8595,-201.2659"/>
+    </g>
+    <g id="lane-033-Fahrstreifen_2_im_Arm_7-ingress" class="lane ingress" data-lane-id="33" data-direction="INGRESS" data-width-meters="3.25">
+      <title>Lane 33: Fahrstreifen 2 im Arm 7; INGRESS; width 3.25 m</title>
+      <polyline class="lane-path" points="-1.79,-86.13 -3.63,-90.69 -2.25,-96.27" stroke-width="3.25"/>
+      <polygon class="direction-arrow" points="-2.451,-94.1743 -3.4185,-90.2622 -2.6497,-90.072 -4.3105,-87.9383 -4.7854,-90.6002 -4.0165,-90.41 -3.049,-94.3222"/>
+    </g>
+    <g id="lane-034-Fahrstreifen_3_im_Arm_7-egress" class="lane egress" data-lane-id="34" data-direction="EGRESS" data-width-meters="3.25">
+      <title>Lane 34: Fahrstreifen 3 im Arm 7; EGRESS; width 3.25 m</title>
+      <polyline class="lane-path" points="15.98,-98.59 12.35,-107.81 3.62,-128.44" stroke-width="3.25"/>
+      <polygon class="direction-arrow" points="10.8987,-110.4492 9.3282,-114.1606 8.5988,-113.8519 8.6492,-116.5553 10.6249,-114.7093 9.8955,-114.4007 11.466,-110.6893"/>
+    </g>
+    <g id="lane-035-Gehweg_oder_Radweg_0_im_Arm_1-unspecified" class="lane unspecified" data-lane-id="35" data-direction="UNSPECIFIED" data-width-meters="3.25">
+      <title>Lane 35: Gehweg oder Radweg 0 im Arm 1; UNSPECIFIED; width 3.25 m</title>
+      <polyline class="lane-path" points="22.77,26.4 23.54,29.3" stroke-width="3.25"/>
+    </g>
+    <g id="lane-036-Gehweg_oder_Radweg_0_im_Arm_1-unspecified" class="lane unspecified" data-lane-id="36" data-direction="UNSPECIFIED" data-width-meters="3.25">
+      <title>Lane 36: Gehweg oder Radweg 0 im Arm 1; UNSPECIFIED; width 3.25 m</title>
+      <polyline class="lane-path" points="20.25,16.87 20.08,12.29" stroke-width="3.25"/>
+    </g>
+    <g id="lane-037-Gehweg_oder_Radweg_0_im_Arm_1-unspecified" class="lane unspecified" data-lane-id="37" data-direction="UNSPECIFIED" data-width-meters="3.25">
+      <title>Lane 37: Gehweg oder Radweg 0 im Arm 1; UNSPECIFIED; width 3.25 m</title>
+      <polyline class="lane-path" points="19.06,9.47 20.09,12.29" stroke-width="3.25"/>
+    </g>
+    <g id="lane-038-Gehweg_oder_Radweg_0_im_Arm_1-unspecified" class="lane unspecified" data-lane-id="38" data-direction="UNSPECIFIED" data-width-meters="3.25">
+      <title>Lane 38: Gehweg oder Radweg 0 im Arm 1; UNSPECIFIED; width 3.25 m</title>
+      <polyline class="lane-path" points="15.79,0.48 15.2,-1.16" stroke-width="3.25"/>
+    </g>
+    <g id="lane-039-Gehweg_oder_Radweg_0_im_Arm_2-unspecified" class="lane unspecified" data-lane-id="39" data-direction="UNSPECIFIED" data-width-meters="3.25">
+      <title>Lane 39: Gehweg oder Radweg 0 im Arm 2; UNSPECIFIED; width 3.25 m</title>
+      <polyline class="lane-path" points="19.5,-7.92 16.66,-6.95" stroke-width="3.25"/>
+    </g>
+    <g id="lane-040-Gehweg_oder_Radweg_0_im_Arm_2-unspecified" class="lane unspecified" data-lane-id="40" data-direction="UNSPECIFIED" data-width-meters="3.25">
+      <title>Lane 40: Gehweg oder Radweg 0 im Arm 2; UNSPECIFIED; width 3.25 m</title>
+      <polyline class="lane-path" points="30.82,-11.76 34.97,-12.98" stroke-width="3.25"/>
+    </g>
+    <g id="lane-041-Gehweg_oder_Radweg_0_im_Arm_2-unspecified" class="lane unspecified" data-lane-id="41" data-direction="UNSPECIFIED" data-width-meters="3.25">
+      <title>Lane 41: Gehweg oder Radweg 0 im Arm 2; UNSPECIFIED; width 3.25 m</title>
+      <polyline class="lane-path" points="39.94,-13.41 34.72,-12.8" stroke-width="3.25"/>
+    </g>
+    <g id="lane-042-Gehweg_oder_Radweg_0_im_Arm_2-unspecified" class="lane unspecified" data-lane-id="42" data-direction="UNSPECIFIED" data-width-meters="3.25">
+      <title>Lane 42: Gehweg oder Radweg 0 im Arm 2; UNSPECIFIED; width 3.25 m</title>
+      <polyline class="lane-path" points="49.75,-14.86 52.72,-15.3" stroke-width="3.25"/>
+    </g>
+    <g id="lane-043-Gehweg_oder_Radweg_0_im_Arm_3-unspecified" class="lane unspecified" data-lane-id="43" data-direction="UNSPECIFIED" data-width-meters="3.25">
+      <title>Lane 43: Gehweg oder Radweg 0 im Arm 3; UNSPECIFIED; width 3.25 m</title>
+      <polyline class="lane-path" points="57.7,-10.01 57.3,-12.99" stroke-width="3.25"/>
+    </g>
+    <g id="lane-044-Gehweg_oder_Radweg_0_im_Arm_3-unspecified" class="lane unspecified" data-lane-id="44" data-direction="UNSPECIFIED" data-width-meters="3.25">
+      <title>Lane 44: Gehweg oder Radweg 0 im Arm 3; UNSPECIFIED; width 3.25 m</title>
+      <polyline class="lane-path" points="58.89,-1.2 59.86,3.07" stroke-width="3.25"/>
+    </g>
+    <g id="lane-045-Gehweg_oder_Radweg_0_im_Arm_3-unspecified" class="lane unspecified" data-lane-id="45" data-direction="UNSPECIFIED" data-width-meters="3.25">
+      <title>Lane 45: Gehweg oder Radweg 0 im Arm 3; UNSPECIFIED; width 3.25 m</title>
+      <polyline class="lane-path" points="60.69,7.13 59.86,3.06" stroke-width="3.25"/>
+    </g>
+    <g id="lane-046-Gehweg_oder_Radweg_0_im_Arm_3-unspecified" class="lane unspecified" data-lane-id="46" data-direction="UNSPECIFIED" data-width-meters="3.25">
+      <title>Lane 46: Gehweg oder Radweg 0 im Arm 3; UNSPECIFIED; width 3.25 m</title>
+      <polyline class="lane-path" points="61.85,16.66 62.21,19.64" stroke-width="3.25"/>
+    </g>
+    <g id="lane-047-Gehweg_oder_Radweg_0_im_Arm_4-unspecified" class="lane unspecified" data-lane-id="47" data-direction="UNSPECIFIED" data-width-meters="3.25">
+      <title>Lane 47: Gehweg oder Radweg 0 im Arm 4; UNSPECIFIED; width 3.25 m</title>
+      <polyline class="lane-path" points="45.75,25.03 42.3,26.47" stroke-width="3.25"/>
+    </g>
+    <g id="lane-048-Gehweg_oder_Radweg_0_im_Arm_4-unspecified" class="lane unspecified" data-lane-id="48" data-direction="UNSPECIFIED" data-width-meters="3.25">
+      <title>Lane 48: Gehweg oder Radweg 0 im Arm 4; UNSPECIFIED; width 3.25 m</title>
+      <polyline class="lane-path" points="57.46,23.19 60.43,22.73" stroke-width="3.25"/>
+    </g>
+    <g id="lane-049-Gehweg_oder_Radweg_0_im_Arm_4-unspecified" class="lane unspecified" data-lane-id="49" data-direction="UNSPECIFIED" data-width-meters="3.25">
+      <title>Lane 49: Gehweg oder Radweg 0 im Arm 4; UNSPECIFIED; width 3.25 m</title>
+      <polyline class="lane-path" points="38.35,27.98 42.31,26.46" stroke-width="3.25"/>
+    </g>
+    <g id="lane-050-Gehweg_oder_Radweg_0_im_Arm_4-unspecified" class="lane unspecified" data-lane-id="50" data-direction="UNSPECIFIED" data-width-meters="3.25">
+      <title>Lane 50: Gehweg oder Radweg 0 im Arm 4; UNSPECIFIED; width 3.25 m</title>
+      <polyline class="lane-path" points="29.54,31.03 26.7,32.01" stroke-width="3.25"/>
+    </g>
+    <g id="lane-051-Gehweg_oder_Radweg_0_im_Arm_7-unspecified" class="lane unspecified" data-lane-id="51" data-direction="UNSPECIFIED" data-width-meters="3.25">
+      <title>Lane 51: Gehweg oder Radweg 0 im Arm 7; UNSPECIFIED; width 3.25 m</title>
+      <polyline class="lane-path" points="-2.58,-80.74 -5.17,-79.21" stroke-width="3.25"/>
+    </g>
+    <g id="lane-052-Gehweg_oder_Radweg_0_im_Arm_7-unspecified" class="lane unspecified" data-lane-id="52" data-direction="UNSPECIFIED" data-width-meters="3.25">
+      <title>Lane 52: Gehweg oder Radweg 0 im Arm 7; UNSPECIFIED; width 3.25 m</title>
+      <polyline class="lane-path" points="3.72,-84.84 9.75,-88.56" stroke-width="3.25"/>
+    </g>
+    <g id="lane-053-Gehweg_oder_Radweg_0_im_Arm_7-unspecified" class="lane unspecified" data-lane-id="53" data-direction="UNSPECIFIED" data-width-meters="3.25">
+      <title>Lane 53: Gehweg oder Radweg 0 im Arm 7; UNSPECIFIED; width 3.25 m</title>
+      <polyline class="lane-path" points="16.13,-93 9.75,-88.57" stroke-width="3.25"/>
+    </g>
+    <g id="lane-054-Gehweg_oder_Radweg_0_im_Arm_7-unspecified" class="lane unspecified" data-lane-id="54" data-direction="UNSPECIFIED" data-width-meters="3.25">
+      <title>Lane 54: Gehweg oder Radweg 0 im Arm 7; UNSPECIFIED; width 3.25 m</title>
+      <polyline class="lane-path" points="22.75,-99.05 24.96,-101.08" stroke-width="3.25"/>
+    </g>
+    <g id="lane-055-Gehweg_oder_Radweg_0_im_Arm_6-unspecified" class="lane unspecified" data-lane-id="55" data-direction="UNSPECIFIED" data-width-meters="3.25">
+      <title>Lane 55: Gehweg oder Radweg 0 im Arm 6; UNSPECIFIED; width 3.25 m</title>
+      <polyline class="lane-path" points="29.7,-98.15 28.42,-100.87" stroke-width="3.25"/>
+    </g>
+    <g id="lane-056-Gehweg_oder_Radweg_0_im_Arm_6-unspecified" class="lane unspecified" data-lane-id="56" data-direction="UNSPECIFIED" data-width-meters="3.25">
+      <title>Lane 56: Gehweg oder Radweg 0 im Arm 6; UNSPECIFIED; width 3.25 m</title>
+      <polyline class="lane-path" points="32.7,-91.8 33.42,-90.41" stroke-width="3.25"/>
+    </g>
+    <g id="lane-057-Gehweg_oder_Radweg_0_im_Arm_6-unspecified" class="lane unspecified" data-lane-id="57" data-direction="UNSPECIFIED" data-width-meters="3.25">
+      <title>Lane 57: Gehweg oder Radweg 0 im Arm 6; UNSPECIFIED; width 3.25 m</title>
+      <polyline class="lane-path" points="34.4,-88.52 33.43,-90.41" stroke-width="3.25"/>
+    </g>
+    <g id="lane-058-Gehweg_oder_Radweg_0_im_Arm_6-unspecified" class="lane unspecified" data-lane-id="58" data-direction="UNSPECIFIED" data-width-meters="3.25">
+      <title>Lane 58: Gehweg oder Radweg 0 im Arm 6; UNSPECIFIED; width 3.25 m</title>
+      <polyline class="lane-path" points="37.46,-82.28 38.97,-80.59" stroke-width="3.25"/>
+    </g>
+    <g id="lane-059-Fahrstreifen_4_im_Arm_7-egress" class="lane egress" data-lane-id="59" data-direction="EGRESS" data-width-meters="3.25">
+      <title>Lane 59: Fahrstreifen 4 im Arm 7; EGRESS; width 3.25 m</title>
+      <polyline class="lane-path" points="19.03,-100.65 17.32,-105.35 7.44,-132.54" stroke-width="3.25"/>
+      <polygon class="direction-arrow" points="14.0545,-113.4349 12.6782,-117.2226 11.9338,-116.9521 12.1241,-119.6492 14.0015,-117.7034 13.2571,-117.4329 14.6335,-113.6452"/>
+    </g>
+  </g>
+  <g id="reference-point" data-x="0" data-y="0">
+    <title>refPoint 52.5000634, 13.3064561</title>
+    <line class="ref-cross" x1="-2" y1="0" x2="2" y2="0"/>
+    <line class="ref-cross" x1="0" y1="-2" x2="0" y2="2"/>
+    <circle class="ref-marker" cx="0" cy="0" r="0.65"/>
+  </g>
+</svg>

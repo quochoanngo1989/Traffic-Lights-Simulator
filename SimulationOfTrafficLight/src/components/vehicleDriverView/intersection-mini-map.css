@@ -1,0 +1,578 @@
+/* =====================================================
+   FLOATING MINI MAP
+   ===================================================== */
+
+.intersection-mini-map {
+
+    position: absolute;
+
+    z-index: 9999;
+
+    box-sizing: border-box;
+
+    overflow: hidden;
+
+    display: flex;
+
+    flex-direction: column;
+
+    background:
+        rgba(
+            15,
+            23,
+            42,
+            0.93
+        );
+
+    border:
+        1px solid
+        rgba(
+            255,
+            255,
+            255,
+            0.16
+        );
+
+    border-radius:
+        12px;
+
+    box-shadow:
+        0 8px 30px
+        rgba(
+            0,
+            0,
+            0,
+            0.35
+        );
+
+    backdrop-filter:
+        blur(8px);
+
+    user-select:
+        none;
+
+    /*
+     * QUAN TRỌNG:
+     *
+     * minimap phải nhận pointer event
+     * để drag / resize được.
+     */
+    pointer-events:
+        auto;
+}
+
+
+/* =====================================================
+   HEADER
+   ===================================================== */
+
+.intersection-mini-map__header {
+
+    flex:
+        0 0 34px;
+
+    height:
+        34px;
+
+    display:
+        flex;
+
+    align-items:
+        center;
+
+    justify-content:
+        space-between;
+
+    gap:
+        8px;
+
+    padding:
+        0 8px
+        0 11px;
+
+    box-sizing:
+        border-box;
+
+    color:
+        #f8fafc;
+
+    background:
+        rgba(
+            15,
+            23,
+            42,
+            0.98
+        );
+
+    border-bottom:
+        1px solid
+        rgba(
+            255,
+            255,
+            255,
+            0.10
+        );
+
+    /*
+     * drag handle
+     */
+    cursor:
+        move;
+
+    touch-action:
+        none;
+}
+
+
+.intersection-mini-map__title {
+
+    min-width:
+        0;
+
+    overflow:
+        hidden;
+
+    text-overflow:
+        ellipsis;
+
+    white-space:
+        nowrap;
+
+    font-family:
+        Inter,
+        Arial,
+        sans-serif;
+
+    font-size:
+        11px;
+
+    font-weight:
+        600;
+}
+
+
+/* =====================================================
+   TOOLBAR
+   ===================================================== */
+
+.intersection-mini-map__toolbar {
+
+    display:
+        flex;
+
+    align-items:
+        center;
+
+    gap:
+        4px;
+
+    flex-shrink:
+        0;
+}
+
+
+.intersection-mini-map__bearing {
+
+    margin-right:
+        3px;
+
+    color:
+        #94a3b8;
+
+    font-family:
+        monospace;
+
+    font-size:
+        10px;
+
+    cursor:
+        default;
+}
+
+
+/* =====================================================
+   SIZE BUTTONS
+   ===================================================== */
+
+.intersection-mini-map__button {
+
+    width:
+        23px;
+
+    height:
+        23px;
+
+    display:
+        flex;
+
+    align-items:
+        center;
+
+    justify-content:
+        center;
+
+    padding:
+        0;
+
+    color:
+        #e2e8f0;
+
+    background:
+        rgba(
+            255,
+            255,
+            255,
+            0.07
+        );
+
+    border:
+        1px solid
+        rgba(
+            255,
+            255,
+            255,
+            0.10
+        );
+
+    border-radius:
+        5px;
+
+    font-family:
+        Arial,
+        sans-serif;
+
+    font-size:
+        16px;
+
+    line-height:
+        1;
+
+    cursor:
+        pointer;
+}
+
+
+.intersection-mini-map__button:hover {
+
+    color:
+        #ffffff;
+
+    background:
+        rgba(
+            255,
+            255,
+            255,
+            0.15
+        );
+}
+
+
+/* =====================================================
+   VIEWPORT
+   ===================================================== */
+
+.intersection-mini-map__viewport {
+
+    position:
+        relative;
+
+    flex:
+        1 1 auto;
+
+    min-height:
+        0;
+
+    overflow:
+        hidden;
+
+    background:
+        rgba(
+            2,
+            6,
+            23,
+            0.30
+        );
+}
+
+
+/* =====================================================
+   SVG ROTATOR
+   ===================================================== */
+
+.intersection-mini-map__svg-rotator {
+
+    position:
+        absolute;
+
+    inset:
+        0;
+
+    display:
+        flex;
+
+    align-items:
+        center;
+
+    justify-content:
+        center;
+
+
+    /*
+     * QUAN TRỌNG:
+     *
+     * toàn bộ SVG rotate quanh chính giữa
+     * của viewport.
+     */
+
+    transform-origin:
+        50% 50%;
+
+
+    /*
+     * bearing được update liên tục.
+     */
+
+    transition:
+        transform
+        0.03s linear;
+
+    will-change:
+        transform;
+}
+
+
+/* =====================================================
+   SVG
+   ===================================================== */
+
+.intersection-mini-map__svg {
+
+    width:
+        100%;
+
+    height:
+        100%;
+
+    display:
+        flex;
+
+    align-items:
+        center;
+
+    justify-content:
+        center;
+}
+
+
+.intersection-mini-map__svg svg {
+
+    display:
+        block;
+
+    /*
+     * SVG fit vào viewport.
+     */
+
+    width:
+        88%
+        !important;
+
+    height:
+        88%
+        !important;
+
+    overflow:
+        visible;
+
+
+    /*
+     * Rotation thực hiện ở parent,
+     * SVG không có transform riêng.
+     */
+
+    transform:
+        none
+        !important;
+
+    transform-origin:
+        50% 50%;
+}
+
+
+/* =====================================================
+   SIGNAL GROUP HIGHLIGHT
+   ===================================================== */
+
+.intersection-mini-map__svg
+.lane.signal-group-highlight
+.lane-path {
+
+    stroke:
+        #00d4ff
+        !important;
+
+    opacity:
+        1
+        !important;
+
+    filter:
+        drop-shadow(
+            0 0 1.5px
+            rgba(
+                0,
+                212,
+                255,
+                0.9
+            )
+        );
+}
+
+
+.intersection-mini-map__svg
+.lane.signal-group-highlight
+.direction-arrow {
+
+    fill:
+        #ffffff
+        !important;
+
+    stroke:
+        #00d4ff
+        !important;
+
+    opacity:
+        1
+        !important;
+}
+
+
+/* =====================================================
+   CENTER MARKER
+   ===================================================== */
+
+.intersection-mini-map__center {
+
+    position:
+        absolute;
+
+    left:
+        50%;
+
+    top:
+        50%;
+
+    width:
+        8px;
+
+    height:
+        8px;
+
+    transform:
+        translate(
+            -50%,
+            -50%
+        );
+
+    border:
+        1px solid
+        rgba(
+            255,
+            255,
+            255,
+            0.6
+        );
+
+    border-radius:
+        50%;
+
+    pointer-events:
+        none;
+}
+
+
+/* =====================================================
+   RESIZE HANDLE
+   ===================================================== */
+
+.intersection-mini-map__resize-handle {
+
+    position:
+        absolute;
+
+    right:
+        0;
+
+    bottom:
+        0;
+
+    width:
+        20px;
+
+    height:
+        20px;
+
+    cursor:
+        nwse-resize;
+
+    touch-action:
+        none;
+
+    z-index:
+        10;
+}
+
+
+/*
+ * Visual resize indicator
+ */
+
+.intersection-mini-map__resize-handle::before {
+
+    content:
+        "";
+
+    position:
+        absolute;
+
+    right:
+        4px;
+
+    bottom:
+        4px;
+
+    width:
+        9px;
+
+    height:
+        9px;
+
+    border-right:
+        2px solid
+        rgba(
+            255,
+            255,
+            255,
+            0.50
+        );
+
+    border-bottom:
+        2px solid
+        rgba(
+            255,
+            255,
+            255,
+            0.50
+        );
+}
+
+
+.intersection-mini-map__resize-handle:hover::before {
+
+    border-color:
+        rgba(
+            255,
+            255,
+            255,
+            0.90
+        );
+}

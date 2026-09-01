@@ -1,0 +1,195 @@
+{
+    "asset": {
+        "version": "2.0",
+        "generator": "Open Asset Import Library (assimp v5.2.cf7d3637)"
+    },
+    "extensionsUsed": [
+        "KHR_materials_volume",
+        "FB_ngon_encoding"
+    ],
+    "accessors": [
+        {
+            "bufferView": 0,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 248922,
+            "type": "VEC3",
+            "max": [
+                91.59660339355469,
+                69.43589782714844,
+                42.956199645996097
+            ],
+            "min": [
+                -91.59660339355469,
+                0.0,
+                -42.956199645996097
+            ]
+        },
+        {
+            "bufferView": 1,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 248922,
+            "type": "VEC3",
+            "max": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "min": [
+                -1.0,
+                -1.0,
+                -1.0
+            ]
+        },
+        {
+            "bufferView": 2,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 248922,
+            "type": "VEC2",
+            "max": [
+                11.480899810791016,
+                5.358799934387207
+            ],
+            "min": [
+                -11.480899810791016,
+                -5.753199577331543
+            ]
+        },
+        {
+            "bufferView": 3,
+            "byteOffset": 0,
+            "componentType": 5125,
+            "count": 248922,
+            "type": "SCALAR",
+            "max": [
+                248921
+            ],
+            "min": [
+                0
+            ]
+        }
+    ],
+    "buffers": [
+        {
+            "byteLength": 8961192,
+            "uri": "result.bin"
+        }
+    ],
+    "bufferViews": [
+        {
+            "buffer": 0,
+            "byteOffset": 0,
+            "byteLength": 2987064,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 2987064,
+            "byteLength": 2987064,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 5974128,
+            "byteLength": 1991376,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 7965504,
+            "byteLength": 995688,
+            "target": 34963
+        }
+    ],
+    "materials": [
+        {
+            "name": "Mat",
+            "pbrMetallicRoughness": {
+                "baseColorFactor": [
+                    0.800000011920929,
+                    0.800000011920929,
+                    0.800000011920929,
+                    1.0
+                ],
+                "metallicFactor": 0.0,
+                "roughnessFactor": 0.4343146085739136
+            }
+        }
+    ],
+    "meshes": [
+        {
+            "name": "WITHOUT_PE_001_1",
+            "primitives": [
+                {
+                    "extensions": {
+                        "FB_ngon_encoding": {}
+                    },
+                    "mode": 4,
+                    "material": 0,
+                    "indices": 3,
+                    "attributes": {
+                        "POSITION": 0,
+                        "NORMAL": 1,
+                        "TEXCOORD_0": 2
+                    }
+                }
+            ]
+        }
+    ],
+    "nodes": [
+        {
+            "name": "RootNode",
+            "children": [
+                1,
+                2
+            ]
+        },
+        {
+            "name": "Cinema_4D_Editor",
+            "matrix": [
+                0.6776004433631897,
+                -0.3092005252838135,
+                -0.6672725081443787,
+                0.0,
+                0.22031033039093018,
+                0.9509968757629395,
+                -0.2169523984193802,
+                0.0,
+                0.7016558647155762,
+                2.9802322387695315e-8,
+                0.7125159502029419,
+                0.0,
+                -180.58447265625,
+                104.32130432128906,
+                164.21939086914063,
+                1.0
+            ],
+            "extras": {
+                "UserProperties": "",
+                "IsNull": false,
+                "DefaultAttributeIndex": 0,
+                "ScalingMax": null
+            }
+        },
+        {
+            "name": "WITHOUT_PE_001_1",
+            "mesh": 0,
+            "extras": {
+                "UserProperties": "",
+                "IsNull": false,
+                "DefaultAttributeIndex": 0,
+                "ScalingMax": null
+            }
+        }
+    ],
+    "scenes": [
+        {
+            "nodes": [
+                0
+            ]
+        }
+    ],
+    "scene": 0
+}

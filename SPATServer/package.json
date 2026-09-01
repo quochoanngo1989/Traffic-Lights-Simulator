@@ -1,0 +1,23 @@
+{
+  "name": "spat-websocket-replay-server",
+  "version": "1.0.0",
+  "description": "WebSocket server for replaying SPAT messages from a JSON file",
+  "main": "spat-ws-server.js",
+  "scripts": {
+    "start": "node spat-ws-server.js",
+    "start:loop": "node spat-ws-server.js --loop=true",
+    "start:10hz": "node spat-ws-server.js --interval=100 --loop=true",
+    "start:1hz": "node spat-ws-server.js --interval=1000 --loop=true"
+  },
+  "keywords": [
+    "spat",
+    "websocket",
+    "its",
+    "j2735",
+    "traffic"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "ws": "^8.18.0"
+  }
+}

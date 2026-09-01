@@ -1,0 +1,17 @@
+# Ignore everything at the repository root by default.
+/*
+
+# Keep the files required to run and document the project.
+!/.gitignore
+!/.env.example
+!/README.md
+!/compose.yaml
+!/SimulationOfTrafficLight/
+!/SPATServer/
+
+# Never commit generated dependencies or build output.
+**/node_modules/
+**/dist/
+**/npm-debug.log*
+**/yarn-debug.log*
+**/yarn-error.log*

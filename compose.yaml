@@ -1,0 +1,19 @@
+services:
+  simulation-of-traffic-light:
+    build:
+      context: ./SimulationOfTrafficLight
+    environment:
+      MAPBOX_ACCESS_TOKEN: ${MAPBOX_ACCESS_TOKEN:-}
+    ports:
+      - "8082:8082"
+    depends_on:
+      - spat-server
+    init: true
+
+  spat-server:
+    build:
+      context: ./SPATServer
+    command: npm run start:10hz
+    ports:
+      - "8081:8081"
+    init: true
